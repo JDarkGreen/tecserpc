@@ -121,14 +121,23 @@
 				<h2 class="sectionCommon__title inline-block text-uppercase">accesos directos</h2>
 				<!-- Lista -->
 				<ul class="sectionPage__access__list">
-					<li><a href="#"><img src="<?= IMAGES ?>/accesos/acceso_1.png" alt="" class="img-responsive" /></a></li>			
-					<li><a href="#"><img src="<?= IMAGES ?>/accesos/acceso_2.png" alt="" class="img-responsive" /></a></li>			
-					<li><a href="#"><img src="<?= IMAGES ?>/accesos/acceso_3.png" alt="" class="img-responsive" /></a></li>			
-					<li><a href="#"><img src="<?= IMAGES ?>/accesos/acceso_4.png" alt="" class="img-responsive" /></a></li>			
-					<li><a href="#"><img src="<?= IMAGES ?>/accesos/acceso_5.png" alt="" class="img-responsive" /></a></li>			
-					<li><a href="#"><img src="<?= IMAGES ?>/accesos/acceso_6.png" alt="" class="img-responsive" /></a></li>		
-					<li><a href="#"><img src="<?= IMAGES ?>/accesos/acceso_7.png" alt="" class="img-responsive" /></a></li>		
-					<li><a href="#"><img src="<?= IMAGES ?>/accesos/acceso_8.png" alt="" class="img-responsive" /></a></li>
+
+					<li><a target="_blank" href="https://www.facebook.com/"><img src="<?= IMAGES ?>/accesos/acceso_2.jpg" alt="" class="img-responsive" /></a></li>	
+
+					<li><a target="_blank" href="https://twitter.com/?lang=es"><img src="<?= IMAGES ?>/accesos/acceso_4.jpg" alt="" class="img-responsive" /></a></li>		
+
+					<li><a target="_blank" href="https://www.youtube.com/"><img src="<?= IMAGES ?>/accesos/acceso_5.jpg" alt="" class="img-responsive" /></a></li>	
+
+					<li><a target="_blank" href="https://www.microsoft.com/es-es/outlook-com/"><img src="<?= IMAGES ?>/accesos/acceso_6.jpg" alt="" class="img-responsive" /></a></li>		
+						
+					<li><a target="_blank" href="https://espanol.yahoo.com/"><img src="<?= IMAGES ?>/accesos/acceso_7.jpg" alt="" class="img-responsive" /></a></li>
+
+					<li><a target="_blank" href="https://mail.google.com/"><img src="<?= IMAGES ?>/accesos/acceso_8.jpg" alt="" class="img-responsive" /></a></li>
+
+					<li><a target="_blank" href="http://www.sunat.gob.pe/"><img src="<?= IMAGES ?>/accesos/acceso_1.jpg" alt="" class="img-responsive" /></a></li>		
+
+					<li><a target="_blank" href="https://www.sunarp.gob.pe/"><img src="<?= IMAGES ?>/accesos/acceso_3.jpg" alt="" class="img-responsive" /></a></li>			
+
 				</ul><!-- /.sectionPage__access__list -->
 
 			</div> <!-- /.sectionPage__access__content -->
@@ -195,7 +204,7 @@
 	      </div>
 	      <div class="modal-body">
 
-			<iframe src="http://www.malosolandia.com/2012/07/ver-america-tv-de-peru-en-vivo-por.html" frameborder="0" scrolling="No" style="height: 400px; max-width: 100%; width:100%;"></iframe>
+			<!--iframe src="http://www.malosolandia.com/2012/07/ver-america-tv-de-peru-en-vivo-por.html" frameborder="0" scrolling="No" style="height: 400px; max-width: 100%; width:100%;"></iframe-->
 	      
 	      </div> <!-- /modalbody -->
 	    </div> <!-- /modal content -->
