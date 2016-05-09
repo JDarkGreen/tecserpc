@@ -4,6 +4,43 @@ var j = jQuery.noConflict();
 
 	j(document).on('ready',function(){
 
+		/* ---------  IR AL PRINCIPIO DE LA PÁGINA ---------*/
+		j(".js-to-link-up").on('click',function(e){
+			e.preventDefault();
+			j('html,body').animate({
+				scrollTop: 0
+			}, 700);
+		});
+
+
+		/* ---------  REDIRECCION ANIMACION DE MENU ---------*/
+
+		//altura del header
+		var header   = j(".mainHeader");
+		var h_header = header.outerHeight(); 
+
+		j(".mainNavigation ul li a.to-link").on('click',function(e){
+			e.preventDefault();
+			//obtener id de destino
+			var seccion = j("#"+j(this).attr('data-to') ); console.log(seccion); 
+
+			if( j(seccion).length ){
+
+				//borrar actual item activo
+				j(".mainNavigation a").removeClass('active');
+
+				//animacion hacia la seccion
+				j('html,body').animate({
+					scrollTop : j(seccion).offset().top - h_header - 20
+				}, 700 );
+
+				//colocar item activo
+				j(this).addClass('active');
+			}
+
+		});
+
+
 		/* ---------------- FORMULARIO GOOGLE --------------*/
 
 		var form_google = j("#form_google");
@@ -53,7 +90,7 @@ var j = jQuery.noConflict();
 		/* ---------------- CARGAR LIBRERIA NIVO SLIDER --------------*/
 		j("#slider-home-1").nivoSlider({
 			directionNav    : false,
-			controlNavThumbs: true,
+			controlNav      : true,
 		});
 	});
 

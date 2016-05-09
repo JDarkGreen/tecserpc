@@ -27,24 +27,24 @@
 
 			<!-- lOGO -->
 			<h1 class="logo">
-				<a href="<?= base_url(); ?>"><img src="<?= IMAGES ?>/logo1.jpg" alt="logo-tecser" class="img-responsive" /></a>
+				<a href="<?= base_url(); ?>"><img src="<?= IMAGES ?>/logo1.png" alt="logo-tecser" class="img-responsive" /></a>
 			</h1><!-- /.logo -->
 
 			<!-- Navegación -->
 			<nav class="mainNavigation">
 				<ul class="text-uppercase">
-					<li><a href="">inicio</a></li>
-					<li><a href="">tv</a></li>
-					<li><a href="">promociones</a></li>
-					<li><a href="">publicidad</a></li>
-					<li><a href="">nosotros</a></li>
-					<li><a href="">utilitarios</a></li>
+					<li><a class="active" href="<?= base_url(); ?>">inicio</a></li>
+					<li><a class="to-link" data-to="seccion-tv" href="">tv</a></li>
+					<li><a class="to-link" data-to="seccion-promo" href="">promociones</a></li>
+					<li><a class="to-link" data-to="seccion-publicidad" href="">publicidad</a></li>
+					<li><a class="to-link" data-to="seccion-nosotros" href="">nosotros</a></li>
+					<li><a class="to-link" data-to="seccion-utilitarios" href="">utilitarios</a></li>
 				</ul>
 			</nav><!-- /. -->
 
 			<!-- Segunda Imagen -->
 			<figure class="mainHeader__image">
-				<img src="<?= IMAGES ?>/logo2.jpg" alt="logo-2" class="img-responsive" />
+				<img src="<?= IMAGES ?>/logo2.png" alt="logo-2" class="img-responsive" />
 			</figure><!-- /.mainHeader__image -->
 			
 		</div><!-- /.mainHeader__content -->

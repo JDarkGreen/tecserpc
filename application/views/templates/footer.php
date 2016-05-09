@@ -1,15 +1,22 @@
 	
 <!-- FOOTER -->
-<footer class="mainFooter">
+<footer id="seccion-nosotros" class="mainFooter">
+
 	<div class="container">
 		<div class="mainFooter__content">
+
+			<!-- Link que manda arriba de la página -->
+			<a href="#" class="js-to-link-up">
+				<img src="<?= IMAGES ?>/icono_subir.png" alt="" class="img-responsive" />
+			</a><!-- /. -->
+
 
 			<!-- Informacion del Footer -->
 			<article class="mainFooter__article mainFooter__sec-description">
 				<!-- Titulo -->
 				<h2 class="mainFooter__title">nosotros</h2>
 				<!-- Logo -->
-				<figure><img src="<?= IMAGES ?>/logo_footer.jpg" alt="" class="img-responsive"></figure>
+				<figure><img src="<?= IMAGES ?>/logo_footer.png" alt="" class="img-responsive"></figure>
 				<!-- Descripción -->
 				<p class="mainFooter__parragraph text-justify">
 					Compra tu móvil nuevo en nuestro catálogo online !Y con delívery! Compra tu móvil nuevo en nuestro catálogo online !Y con delívery! Compra tu móvil nuevo en nuestro catálogo online !Y con delívery!Compra tu móvil nuevo en nuestro catálogo online !Y con delívery! Compra tu móvil nuevo en nuestro catálogo online !Y con delívery!

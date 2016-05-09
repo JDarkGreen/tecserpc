@@ -26,17 +26,20 @@
 /**-------------------------- VARIABLES ---------------------------------------------**/
 /***************************************************************************************/
 
-$tecser_blue      : #0076A4
-$tecser_sky       : #00B1CE
-$tecser_skyblue   : #009CC1
+$tecser_blue         : #0076A4
+$tecser_sky          : #00B1CE
+$tecser_skyblue      : #009CC1
+$tecser_skyblue_claro: #9BE5EC
 
-$tecser_darkblue  : #007AEE
+$tecser_darkblue     : #007AEE
 
-$tecser_gray      : #D3D3D3
-$tecser_gray_claro: #ECECEE
+$tecser_gray         : #D3D3D3
+$tecser_gray_claro   : #ECECEE
 
-$tecser_green     : #6EC81D
-$tecser_darkgreen : #00AB00
+$tecser_green        : #6EC81D
+$tecser_darkgreen    : #00AB00
+
+$tecser_yellow       : #FFFB00
 
 
 /*-------------------------------------------------------------------------*/
@@ -93,12 +96,28 @@ body,html
 				margin: 0 17px 0 0
 				width : 24px 
 
+//boton subir
+.js-to-link-up
+	position: absolute
+	right   : 40px
+	top     : -30%
+
+
 /*-------------------------------------------------------------------------*/
 /*-------------------------- HEADER ------------------------------------*/
 /*-------------------------------------------------------------------------*/
 .mainHeader
 	background   : $tecser_blue
 	border-bottom: 7px solid $tecser_sky
+	left         : 0 
+	position     : fixed
+	right        : 0
+	z-index      : 9999999
+
+//Imagen
+.mainHeader__image
+	max-width: 150px
+
 .mainHeader__content
 	align-items: center
 	display    : flex
@@ -125,6 +144,17 @@ body,html
 				font-size      : 1.75em //28px 
 				line-height    : 1em 
 				text-decoration: none
+				+transition( all 500ms ease )
+
+				//active u hover
+				&.active,&:hover
+					color: $tecser_yellow
+
+/*-------------------------------------------------------------------------*/
+/*-----------------   SECCION CONTENEDORA GLOBAL --------------------------*/
+/*-------------------------------------------------------------------------*/
+.sectionWrapper
+	padding: 125px 0 0 0
 
 /*-------------------------------------------------------------------------*/
 /*-------------------------- PRIMERA SECCION  ---------------------------*/
@@ -219,9 +249,39 @@ body,html
 /*-------------------------------------------------------------------------*/
 .sectionPage__banners
 	margin: 20px auto 30px
+	
 
-/* <<================ BANNNER 1 ===============*/
-.sectionPage__banner1
+/* <<================ BANNNER ===============*/
+.sectionPage__banner
+
+	//control de carousel
+	.carousel-indicators
+		bottom: 0
+		li 
+			background: $tecser_skyblue_claro
+			border    : none
+			height    : 15px	
+			width     : 15px
+			&.active
+				background: $tecser_skyblue
+
+.nivo-controlNav
+	bottom     : 25px 
+	line-height: 1em
+	padding    : 0
+	position   : relative
+	z-index    : 99
+	//Captions del banner sobreescribir libreria nivoslider
+	.nivo-control
+		background   : $tecser_skyblue_claro
+		border-radius: 50%
+		color        : transparent
+		display      : inline-block
+		height       : 15px
+		margin       : 0 5px
+		width        : 15px
+		&.active
+			background: $tecser_skyblue
 
 /*-------------------------------------------------------------------------*/
 /*-------------------------- ACCESOS DIRECTOS  ---------------------------*/
@@ -316,6 +376,7 @@ body,html
 	color     : white 
 	margin    : 45px auto 0
 	padding   : 29px 0 50px
+	position  : relative
 
 	//contenido
 .mainFooter__content
