@@ -58,6 +58,13 @@ body,html
 	position: relative
 
 /*-------------------------------------------------------------------------*/
+/*----------------- SOBREESCRIBIR CLASES ---------------------------------*/
+/*-------------------------------------------------------------------------*/
+
+.modal
+	z-index: 9999999999
+
+/*-------------------------------------------------------------------------*/
 /*----------------------- SECCIONES COMUNES -------------------------------*/
 /*-------------------------------------------------------------------------*/
 
@@ -73,6 +80,7 @@ body,html
 	//item
 	.item__promo
 		margin: 0 auto 15px
+		border: 1px solid gray 
 
 //Seccion de banner
 .sectionPage__common__banner
@@ -253,6 +261,8 @@ body,html
 
 /* <<================ BANNNER ===============*/
 .sectionPage__banner
+	+box-shadow( 3px 3px 4px gray )
+	border: 1px solid gray
 
 	//control de carousel
 	.carousel-indicators
@@ -346,7 +356,9 @@ body,html
 	article
 		//imagenes
 		figure 
-			margin: 0 auto 10px 
+			margin: 0 auto 10px
+			+box-shadow( 3px 2px 4px gray ) 
+	//
 
 /*-------------------------------------------------------------------------*/
 /*--------------------- UTILITARIO   ---------------------------*/

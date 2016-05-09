@@ -13,7 +13,9 @@
 	<!-- 0wl carousel -->
 	<link rel="stylesheet" href="<?= base_url('assets/css/owl.carousel.css');  ?>" />	
 	<!-- font awesome -->
-	<link rel="stylesheet" href="<?= base_url('assets/css/font-awesome.min.css');  ?>" />
+	<link rel="stylesheet" href="<?= base_url('assets/css/font-awesome.min.css');  ?>" />	
+	<!-- fsnvcybox -->
+	<link rel="stylesheet" href="<?= base_url('assets/css/fancybox/jquery.fancybox.css');  ?>" />
 	<!-- Estilos -->
 	<link rel="stylesheet" href="<?= base_url('assets/css/master.css');  ?>" />
 

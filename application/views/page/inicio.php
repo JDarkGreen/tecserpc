@@ -77,6 +77,8 @@
 						<img src="<?= IMAGES ?>/banners/banner1_1.jpg" alt="" class="img-responsive" />
 						<img src="<?= IMAGES ?>/banners/banner1_2.jpg" alt="" class="img-responsive" />
 						<img src="<?= IMAGES ?>/banners/banner1_3.jpg" alt="" class="img-responsive" />
+						<img src="<?= IMAGES ?>/banners/banner1_4.jpg" alt="" class="img-responsive" />
+						<img src="<?= IMAGES ?>/banners/banner1_5.jpg" alt="" class="img-responsive" />
 					</section> <!-- /.sectionPage__banner1 -->
 				</div><!-- /.col-xs-4 -->			
 
@@ -183,6 +185,23 @@
 
 		</div> <!-- /.container -->
 	</section><!-- /.sectionPage__programas -->
+	
+	<!-- Modal que contiene el frame -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	      </div>
+	      <div class="modal-body">
+
+			<iframe src="http://www.malosolandia.com/2012/07/ver-america-tv-de-peru-en-vivo-por.html" frameborder="0" scrolling="No" style="height: 400px; max-width: 100%; width:100%;"></iframe>
+	      
+	      </div> <!-- /modalbody -->
+	    </div> <!-- /modal content -->
+	  </div> <!-- /modal dialog -->
+	</div> <!-- modal fade -->
+
 
 	<!-- Seccion lo que buscabas -->
 	<section id="seccion-publicidad" class="sectionPage__common">

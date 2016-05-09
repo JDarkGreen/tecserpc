@@ -68,7 +68,7 @@ var j = jQuery.noConflict();
 			loop  : true,
 			margin: 70,
 			nav   : false,
-			items : 7,
+			items : 5,
 		});
 
 		//eventos de flechas
@@ -82,6 +82,14 @@ var j = jQuery.noConflict();
 			owl_programas.trigger('next.owl.carousel', [500]);
 		});
 
+		/* ---------------- ABRIR MODAL DEW PROGRAMACION --------------*/
+		var modal_pro = j("#myModal"); 
+
+		j(".sliderProgramas .item a").on('click',function(e){
+			e.preventDefault(); //desactivar funcion predeterminada
+			//abrir modal
+			modal_pro.modal('show');
+		});
 
 	});
 

@@ -16,7 +16,7 @@
 				<!-- Titulo -->
 				<h2 class="mainFooter__title">nosotros</h2>
 				<!-- Logo -->
-				<figure><img src="<?= IMAGES ?>/logo_footer.png" alt="" class="img-responsive"></figure>
+				<figure><img src="<?= IMAGES ?>/logo1.png" alt="" class="img-responsive"></figure>
 				<!-- Descripción -->
 				<p class="mainFooter__parragraph text-justify">
 					Compra tu móvil nuevo en nuestro catálogo online !Y con delívery! Compra tu móvil nuevo en nuestro catálogo online !Y con delívery! Compra tu móvil nuevo en nuestro catálogo online !Y con delívery!Compra tu móvil nuevo en nuestro catálogo online !Y con delívery! Compra tu móvil nuevo en nuestro catálogo online !Y con delívery!
@@ -91,7 +91,8 @@
 	<!-- Nivo-->
 	<script src="<?= base_url('assets/js/jquery.nivo.slider.pack.js') ?>"></script>	
 	<!-- Owl carousel -->
-	<script src="<?= base_url('assets/js/owl.carousel.min.js') ?>"></script>	
+	<script src="<?= base_url('assets/js/owl.carousel.min.js') ?>"></script>		
+	<script src="<?= base_url('assets/js/jquery.fancybox.pack.js') ?>"></script>	
 	<!-- Custom Script -->
 	<script src="<?= base_url('assets/js/script.js') ?>"></script>
 
