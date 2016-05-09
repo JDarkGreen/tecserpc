@@ -1,0 +1,399 @@
+@import "compass/css3"
+
+/***************************************************************************************/
+/**-------------------------- FONT FACE  ---------------------------------------------**/
+/***************************************************************************************/
+
+//Bebas
+@font-face 
+	font-family: 'Bebas'
+	src: url('../fonts/bebasneue/bebasneue.eot') 
+	src: url('../fonts/bebasneue/bebasneue.eot?#iefix') format('embedded-opentype'), url('../fonts/bebasneue/bebasneue.woff2') format('woff2'), url('../fonts/bebasneue/bebasneue.woff') format('woff'), url('../fonts/bebasneue/bebasneue.ttf')  format('truetype'), url('../fonts/bebasneue/bebasneue.svg#svgFontName') format('svg') 
+
+
+/***************************************************************************************/
+/**-------------------------- KEYFRAMES ---------------------------------------------**/
+/***************************************************************************************/
+
++keyframes(movepulse)
+	0%, 100%
+		+transform( translateX( -5px ) )
+	50%
+		+transform( translateX( 0px ) )
+
+
+/***************************************************************************************/
+/**-------------------------- VARIABLES ---------------------------------------------**/
+/***************************************************************************************/
+
+$tecser_blue      : #0076A4
+$tecser_sky       : #00B1CE
+$tecser_skyblue   : #009CC1
+
+$tecser_darkblue  : #007AEE
+
+$tecser_gray      : #D3D3D3
+$tecser_gray_claro: #ECECEE
+
+$tecser_green     : #6EC81D
+$tecser_darkgreen : #00AB00
+
+
+/*-------------------------------------------------------------------------*/
+/*-------------------------- RESET ----------------------------------------*/
+/*-------------------------------------------------------------------------*/
+
+body,html
+	font-size: 16px
+
+
+//elemento inline block
+.inline-block
+	display : inline-block 
+	//posicion relativa
+.relative
+	position: relative
+
+/*-------------------------------------------------------------------------*/
+/*----------------------- SECCIONES COMUNES -------------------------------*/
+/*-------------------------------------------------------------------------*/
+
+//Título
+.sectionCommon__title
+	color      : $tecser_blue
+	font-family: 'Bebas'
+	margin     : 0
+
+//Seccion Promoción
+.sectionPage__common__promotions
+	margin: 10px auto 0
+	//item
+	.item__promo
+		margin: 0 auto 15px
+
+//Seccion de banner
+.sectionPage__common__banner
+	background: $tecser_skyblue
+	//contenedor
+	.section__content
+		align-items    : center
+		color          : white
+		display        : flex
+		font-size      : 35px
+		font-weight    : 700 
+		justify-content: center
+		//parrafo
+		p 
+			margin     : 0 20px
+			display    : flex
+			align-items: center
+			//imagen
+			img 
+				height: 32px 
+				margin: 0 17px 0 0
+				width : 24px 
+
+/*-------------------------------------------------------------------------*/
+/*-------------------------- HEADER ------------------------------------*/
+/*-------------------------------------------------------------------------*/
+.mainHeader
+	background   : $tecser_blue
+	border-bottom: 7px solid $tecser_sky
+.mainHeader__content
+	align-items: center
+	display    : flex
+
+/*-------------------------------------------------------------------------*/
+/*-------------------------- NAVEGACIÓN------------------------------------*/
+/*-------------------------------------------------------------------------*/
+.mainNavigation
+	font-family: 'Bebas'
+	ul 
+		list-style-type: none
+		margin         : 0 auto 
+		padding        : 0
+		li 
+			border-right: 3px solid white
+			display     : inline-block
+			padding     : 0 20px
+
+			&:last-child
+				border: none
+
+			a
+				color          : white
+				font-size      : 1.75em //28px 
+				line-height    : 1em 
+				text-decoration: none
+
+/*-------------------------------------------------------------------------*/
+/*-------------------------- PRIMERA SECCION  ---------------------------*/
+/*-------------------------------------------------------------------------*/
+
+//SECCION
+.sectionPage__section-one
+	margin: 16px auto 0
+
+
+//SECCION BUSCADOR DE GOOGLE
+.sectionPage__search
+	margin: 30px auto 0
+	//logo
+	.logo__google
+		display: inline-block
+	//tabs
+	.tabs-google	
+		margin: 0 auto 20px 
+		a
+			background     : transparent 
+			border         : none 
+			border-right   : 2px solid gray  
+			color          : gray
+			display        : inline-block
+			line-height    : 1em 
+			padding        : 0 15px
+			text-decoration: none
+			//last child
+			&:last-child
+				border: none
+
+	//input google
+	.input-google
+		color    : gray 
+		height   : 41px  
+		max-width: 598px 
+		padding  : 0 10px 
+		width    : 100%
+	//boton buscador
+	.btn__search
+		background : $tecser_darkblue
+		border     : none 
+		color      : white 
+		line-height: 1em 
+		padding    : 12px 32px
+		position   : absolute
+		right      : -18% 
+
+
+//SECCION LOGEO 
+.sectionPage__login
+	form
+		//title
+		h2 	
+			background: $tecser_darkgreen
+			color     : white 
+			font-size : 17px
+			margin    : 0 auto
+			padding   : 6px
+		//label
+		label 
+			color    : gray 
+			display  : inline-block
+			font-size: 15px 
+			width    : 80px		
+		//input
+		input 
+			display  : inline-block
+			font-size: 15px 
+			padding  : 0 5px 
+			width    : 152px
+		//contenido 
+		.content
+			background: $tecser_gray_claro
+			padding   : 14px 20px
+		//boton submit
+		.submit 
+			background: $tecser_blue
+			border    : none 
+			color     : white
+			margin    : 12px auto
+			padding   : 4px 15px
+		//links
+		.form-link
+			color    : gray 
+			display  : inline-block
+			font-size: 14px
+
+/*-------------------------------------------------------------------------*/
+/*-------------------------- SECCION DE BANNERS ---------------------------*/
+/*-------------------------------------------------------------------------*/
+.sectionPage__banners
+	margin: 20px auto 30px
+
+/* <<================ BANNNER 1 ===============*/
+.sectionPage__banner1
+
+/*-------------------------------------------------------------------------*/
+/*-------------------------- ACCESOS DIRECTOS  ---------------------------*/
+/*-------------------------------------------------------------------------*/
+.sectionPage__access
+	background: $tecser_gray
+	padding   : 5px 0
+	//contenedor
+	.sectionPage__access__content
+		align-items    : center
+		display        : flex
+		justify-content: center 
+
+	//lista de accesos
+	.sectionPage__access__list
+		display        : inline-block
+		list-style-type: none 
+		margin         : 0 30px
+		padding        : 0 
+		li 
+			display: inline-block
+
+/*-------------------------------------------------------------------------*/
+/*--------------------- PROGRAMACION   ---------------------------*/
+/*-------------------------------------------------------------------------*/
+
+.sectionPage__programas
+	margin: 55px auto 58px
+	//carousel
+	.sliderProgramas
+		margin : 34px auto 0
+		padding: 0 74px
+	//flechas
+	.arrowProgramas
+		background-size: 100% 100% 
+		display        : block
+		height         : 47px 
+		margin         : -23px auto 0
+		position       : absolute
+		top            : 50% 
+		width          : 22px
+		z-index        : 999
+		//Hover
+		&:hover 
+			animation: movepulse 900ms linear infinite
+
+	//flecha izquierda
+	.arrowProgramas--prev
+		background: url("../images/arrows/flechas_1.png") no-repeat
+		left: 0
+	.arrowProgramas--next
+		background: url("../images/arrows/flechas_2.png") no-repeat
+		right: 0
+
+/*-------------------------------------------------------------------------*/
+/*--------------------- MISCELANEO  ---------------------------*/
+/*-------------------------------------------------------------------------*/
+
+.sectionPage__miscelaneo
+	margin: 38px auto
+	//Articulos
+	article
+		//imagenes
+		figure 
+			margin: 0 auto 10px 
+
+/*-------------------------------------------------------------------------*/
+/*--------------------- UTILITARIO   ---------------------------*/
+/*-------------------------------------------------------------------------*/
+
+.sectionPage__utilitario__content
+	background: $tecser_skyblue
+	padding   : 24px 39px 
+	//links
+	a 
+		color          : white 
+		display        : block
+		text-decoration: none 
+		//guion
+		&:before
+			content       : "-"
+			display       : inline-block
+			margin        : 0 5px 0 0
+			vertical-align: middle 
+
+/*-------------------------------------------------------------------------*/
+/*---------------------- FOOTER  ------------------------------------*/
+/*-------------------------------------------------------------------------*/
+
+.mainFooter
+	background: $tecser_blue
+	color     : white 
+	margin    : 45px auto 0
+	padding   : 29px 0 50px
+
+	//contenido
+.mainFooter__content
+	display: flex
+	//lista en general
+	ul 
+		margin : 0 auto 
+		padding: 0
+
+		//Redes Sociales
+		&.mainFooter__social-link
+			list-style-type: none 
+			margin         : 20px auto 0
+			li 
+				display: inline-block
+				padding: 0 7px
+				a 
+					color    : white
+					font-size: 22px 
+					position : relative
+					+transition( all 600ms ease )
+					&:before
+						bottom  : 0 
+						content : " "
+						left    : 0
+						outline : 1px solid $tecser_blue
+						position: absolute
+						right   : 0
+						top     : 0 
+						+transition( all 500ms ease )
+					//hover
+					&:hover
+						&:before
+							outline       : 1px solid white
+							outline-offset: 15px
+							+opacity( 0 )
+
+//titulos en el footer
+.mainFooter__title
+	font-size     : 19px
+	font-weight   : 600 
+	margin        : 0 auto 20px
+	text-align    : center 
+	text-transform: uppercase
+
+//parrafos
+.mainFooter__parragraph
+	font-size: 15px
+
+//lista
+.mainFooter__list
+	list-style-type: none
+	li 
+		margin: 0 auto 5px
+		span
+			color: $tecser_green
+		i 
+			font-size : 20px
+			margin    : 0 13px 0 0
+			text-align: center
+			width     : 20px
+
+//articulos en comun
+.mainFooter__article
+	border-right: 1px solid $tecser_sky
+	figure
+		margin: 0 auto 12px
+
+//secciones particulares
+.mainFooter__sec-description
+	padding: 0 20px 0 0
+	width  : 45%
+.mainFooter__sec-services, .mainFooter__sec-contact
+	width: 27.5%
+
+//estilo en especial
+.mainFooter__sec-contact
+	padding: 0 3%
+
+
+
