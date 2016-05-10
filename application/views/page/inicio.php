@@ -155,34 +155,54 @@
 				<!-- Contenedor de canales -->
 				<section id="sectionPage__programas__content" class="sliderProgramas">
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal1.jpg" alt="" class="img-responsive" /></a>
+						<a href=""><img src="<?= IMAGES ?>/canales/canal1.jpg" alt="" class="img-responsive" />
+							<span data-canal="http://vercanalestv.com/tv/nacionales/tnt.html"></span>
+						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal2.jpg" alt="" class="img-responsive" /></a>
+						<a href=""><img src="<?= IMAGES ?>/canales/canal2.jpg" alt="" class="img-responsive" />
+							<span data-canal="http://www.malosolandia.com/2012/07/ver-america-tv-de-peru-en-vivo-por.html"></span>
+						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal3.jpg" alt="" class="img-responsive" /></a>
+						<a href=""><img src="<?= IMAGES ?>/canales/canal3.jpg" alt="" class="img-responsive" />
+							<span data-canal="http://vercanalestv.com/tv/peru/atv.html"></span>
+						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal4.jpg" alt="" class="img-responsive" /></a>
+						<a href=""><img src="<?= IMAGES ?>/canales/canal4.jpg" alt="" class="img-responsive"/>
+							<span data-canal="http://vercanalestv.com/tv/peru/cmd.html"></span>
+						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal5.jpg" alt="" class="img-responsive" /></a>
+						<a href=""><img src="<?= IMAGES ?>/canales/canal5.jpg" alt="" class="img-responsive" />
+							<span data-canal="http://vercanalestv.com/tv/deportes/espn-deportes.html"></span>
+						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal6.jpg" alt="" class="img-responsive" /></a>
+						<a href=""><img src="<?= IMAGES ?>/canales/canal6.jpg" alt="" class="img-responsive" />
+							<span data-canal="http://vercanalestv.com/tv/deportes/fox-sports.html"></span>
+						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal7.jpg" alt="" class="img-responsive" /></a>
+						<a href=""><img src="<?= IMAGES ?>/canales/canal7.jpg" alt="" class="img-responsive" />
+							<span data-canal="http://vercanalestv.com/tv/peru/global-tv.html"></span>
+						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal8.jpg" alt="" class="img-responsive" /></a>
+						<a href=""><img src="<?= IMAGES ?>/canales/canal8.jpg" alt="" class="img-responsive" />
+							<span data-canal="http://vercanalestv.com/tv/deportes/goltv.html"></span>
+						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal9.jpg" alt="" class="img-responsive" /></a>
+						<a href=""><img src="<?= IMAGES ?>/canales/canal9.jpg" alt="" class="img-responsive" />
+							<span data-canal="http://vercanalestv.com/tv/peru/frecuencia-latina.html"></span>
+						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal10.jpg" alt="" class="img-responsive" /></a>
+						<a href=""><img src="<?= IMAGES ?>/canales/canal10.jpg" alt="" class="img-responsive" />
+							<span data-canal="http://tvpor-internet.com/tlnovelas-en-vivo.html"></span>
+						</a>
 					</div><!-- /.item -->
 				</section><!-- /.sectionPage__programas__content -->
 
@@ -203,8 +223,9 @@
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 	      </div>
 	      <div class="modal-body">
-
-			<!--iframe src="http://www.malosolandia.com/2012/07/ver-america-tv-de-peru-en-vivo-por.html" frameborder="0" scrolling="No" style="height: 400px; max-width: 100%; width:100%;"></iframe-->
+			
+			<!-- IFrame Canal -->
+			<iframe id="frame-canal" src="" frameborder="0" scrolling="No" style="height: 400px; max-width: 100%; width:100%;"></iframe>
 	      
 	      </div> <!-- /modalbody -->
 	    </div> <!-- /modal content -->

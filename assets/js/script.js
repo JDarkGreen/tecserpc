@@ -87,8 +87,17 @@ var j = jQuery.noConflict();
 
 		j(".sliderProgramas .item a").on('click',function(e){
 			e.preventDefault(); //desactivar funcion predeterminada
+			//obtener src de canal
+			var canal = j(this).find('span').attr('data-canal');
+			//colocarlo en el iframe del modal
+			j("#frame-canal").attr('src', canal );
 			//abrir modal
 			modal_pro.modal('show');
+		});
+
+		//al cerrar modal detener frame
+		modal_pro.on('hidden.bs.modal', function (e) {
+		  j("#frame-canal").attr('src', '' );
 		});
 
 	});
