@@ -83,6 +83,8 @@
 	</div><!-- /.container -->		
 </footer> <!-- /.mainFooter -->
 
+</div> <!-- Fin de contenedor Mobile -->
+
 
 	<!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
@@ -91,8 +93,11 @@
 	<!-- Nivo-->
 	<script src="<?= base_url('assets/js/jquery.nivo.slider.pack.js') ?>"></script>	
 	<!-- Owl carousel -->
-	<script src="<?= base_url('assets/js/owl.carousel.min.js') ?>"></script>		
+	<script src="<?= base_url('assets/js/owl.carousel.min.js') ?>"></script>	
+	<!-- Fnacybox -->	
 	<script src="<?= base_url('assets/js/jquery.fancybox.pack.js') ?>"></script>	
+	<!-- slidebar -->
+	<script src="<?= base_url('assets/js/slidebars.min.js') ?>"></script>	
 	<!-- Custom Script -->
 	<script src="<?= base_url('assets/js/script.js') ?>"></script>
 

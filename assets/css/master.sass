@@ -62,7 +62,8 @@ body,html
 /*-------------------------------------------------------------------------*/
 
 .modal
-	z-index: 9999999999
+	position: relative
+	z-index : 9999999999999999
 
 /*-------------------------------------------------------------------------*/
 /*----------------------- SECCIONES COMUNES -------------------------------*/
@@ -90,6 +91,7 @@ body,html
 		align-items    : center
 		color          : white
 		display        : flex
+		flex-wrap      : wrap 
 		font-size      : 35px
 		font-weight    : 700 
 		justify-content: center
@@ -127,8 +129,16 @@ body,html
 	max-width: 150px
 
 .mainHeader__content
-	align-items: center
-	display    : flex
+	align-items    : center
+	display        : flex
+	flex-wrap      : wrap 
+	justify-content: center 
+
+//Icono de navegacion solo en version mobile
+.mainHeader__icon-menu
+	color    : white 
+	font-size: 35px 
+	margin   : 0 12px 
 
 /*-------------------------------------------------------------------------*/
 /*-------------------------- NAVEGACIÓN------------------------------------*/
@@ -303,6 +313,7 @@ body,html
 	.sectionPage__access__content
 		align-items    : center
 		display        : flex
+		flex-wrap      : wrap
 		justify-content: center 
 
 	//lista de accesos
@@ -399,7 +410,8 @@ body,html
 
 	//contenido
 .mainFooter__content
-	display: flex
+	display  : flex
+	flex-wrap: wrap 
 	//lista en general
 	ul 
 		margin : 0 auto 
@@ -476,4 +488,65 @@ body,html
 	padding: 0 3%
 
 
+/*********************************************************************************/
+/*------------------------------ MEDIAS QUERIES  --------------------------------*/
+/*********************************************************************************/
 
+//Mobile Size
+@media screen and (max-width: 480px )
+	
+	/*---------- CONTENEDOR WRAPPER --------- */
+	.sectionWrapper
+		padding: 125px 15px 0
+
+	/*-------- NAVEGACION --------------------*/
+	.mainNavigation
+		padding: 50px 0 
+		ul 
+			li 
+				display: block
+				a 
+					display: block 
+					margin : 0 auto 20px
+
+
+	/*--------- BOTON BUSCADOR GOOGLE --------*/
+	.sectionPage__search 
+		.btn__search
+			margin  : 10px auto 0 
+			position: relative
+			right   : 0
+
+	/*------- LISTA DE ACCESOS DIRECTOS -------*/
+	.sectionPage__access
+		.sectionPage__access__list
+			margin: 0 auto
+			li 
+				a 
+					margin: 0 10px 10px
+
+	/*-------- TITULOS COMUNES ----------------*/
+	.sectionCommon__title
+		margin: 0 auto 15px
+
+	/*----------- PROGRAMAS ------------------- */
+	.sectionPage__programas 
+		.sliderProgramas
+			padding: 0 35px
+
+	/*------------- FOOTER ---------------------*/
+	.mainFooter__content
+		padding: 0 15px
+
+	//seccion descripcipn
+	.mainFooter__sec-description , .mainFooter__sec-services, .mainFooter__sec-contact
+		width: 100% 
+
+	//articulos en general
+	.mainFooter__article
+		border : none
+		padding: 0 0 15px
+		//imagen
+		figure 
+			img 
+				margin: 0 auto

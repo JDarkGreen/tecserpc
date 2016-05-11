@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Tecser Centro Lima </title>
 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
 	<!-- Cargar librerias -->
 
 	<!-- Bootstrap -->
@@ -15,7 +18,9 @@
 	<!-- font awesome -->
 	<link rel="stylesheet" href="<?= base_url('assets/css/font-awesome.min.css');  ?>" />	
 	<!-- fsnvcybox -->
-	<link rel="stylesheet" href="<?= base_url('assets/css/fancybox/jquery.fancybox.css');  ?>" />
+	<link rel="stylesheet" href="<?= base_url('assets/css/fancybox/jquery.fancybox.css');  ?>" />	
+	<!-- sliderbar -->
+	<link rel="stylesheet" href="<?= base_url('assets/css/slidebars.min.css');  ?>" />
 	<!-- Estilos -->
 	<link rel="stylesheet" href="<?= base_url('assets/css/master.css');  ?>" />
 
@@ -23,9 +28,14 @@
 <body>
 
 <!-- Main Header -->
-<header class="mainHeader">
+<header class="sb-slide mainHeader">
 	<div class="container">
 		<div class="mainHeader__content">
+
+			<!-- Icono de abrir contenedor de navegacion solo en mobile -->
+			<div id="icon-menu-mobile" class="mainHeader__icon-menu visible-xs-inline-block">
+				<span class="glyphicon glyphicon-list"></span>
+			</div>
 
 			<!-- lOGO -->
 			<h1 class="logo">
@@ -33,7 +43,7 @@
 			</h1><!-- /.logo -->
 
 			<!-- Navegación -->
-			<nav class="mainNavigation">
+			<nav class="mainNavigation hidden-xs">
 				<ul class="text-uppercase">
 					<li><a class="active" href="<?= base_url(); ?>">inicio</a></li>
 					<li><a class="to-link" data-to="seccion-tv" href="">tv</a></li>
@@ -45,7 +55,7 @@
 			</nav><!-- /. -->
 
 			<!-- Segunda Imagen -->
-			<figure class="mainHeader__image">
+			<figure class="mainHeader__image hidden-xs">
 				<img src="<?= IMAGES ?>/logo2.png" alt="logo-2" class="img-responsive" />
 			</figure><!-- /.mainHeader__image -->
 			
@@ -53,3 +63,20 @@
 
 	</div><!-- /.container -->
 </header> <!-- /.mainHeader -->
+
+<!-- ASIDE BAR DE NAVEGACION SOLO EN VERSION MOBILE -->
+<div class="sb-slidebar sb-left">
+	<nav class="mainNavigation">
+		<ul class="text-uppercase">
+			<li><a class="active" href="<?= base_url(); ?>">inicio</a></li>
+			<li><a class="to-link" data-to="seccion-tv" href="">tv</a></li>
+			<li><a class="to-link" data-to="seccion-promo" href="">promociones</a></li>
+			<li><a class="to-link" data-to="seccion-publicidad" href="">publicidad</a></li>
+			<li><a class="to-link" data-to="seccion-nosotros" href="">nosotros</a></li>
+			<li><a class="to-link" data-to="seccion-utilitarios" href="">utilitarios</a></li>
+		</ul>
+	</nav><!-- /. -->   
+</div> <!-- /.nav -->
+
+<!-- Contenedor para mobile -->
+<div id="sb-site">

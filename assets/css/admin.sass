@@ -1,0 +1,99 @@
+@import "compass/css3"
+
+/***************************************************************************************/
+/**-------------------------- FONT FACE  ---------------------------------------------**/
+/***************************************************************************************/
+
+//Bebas
+@font-face 
+	font-family: 'Bebas'
+	src: url('../fonts/bebasneue/bebasneue.eot') 
+	src: url('../fonts/bebasneue/bebasneue.eot?#iefix') format('embedded-opentype'), url('../fonts/bebasneue/bebasneue.woff2') format('woff2'), url('../fonts/bebasneue/bebasneue.woff') format('woff'), url('../fonts/bebasneue/bebasneue.ttf')  format('truetype'), url('../fonts/bebasneue/bebasneue.svg#svgFontName') format('svg') 
+
+
+/***************************************************************************************/
+/**-------------------------- KEYFRAMES ---------------------------------------------**/
+/***************************************************************************************/
+
+
+/***************************************************************************************/
+/**-------------------------- VARIABLES ---------------------------------------------**/
+/***************************************************************************************/
+
+$tecser_black : #222222
+$tecser_blue  : #2A9FD5
+
+/*-------------------------------------------------------------------------*/
+/*-------------------------- RESET ----------------------------------------*/
+/*-------------------------------------------------------------------------*/
+
+body,html
+	height  : 100%
+	position: relative
+	width   : 100%
+
+.bg-black 
+	background: black
+
+/***************************************************************************************/
+/**-------------------------- HEADER --------------------------------------------**/
+/***************************************************************************************/
+
+.mainHeader
+	background: $tecser_black
+	color     : white 
+	height    : 60px
+	padding   : 10px 20px 
+
+/***************************************************************************************/
+/**-------------------------- MAIN WRAPPER -------------------------------------------**/
+/***************************************************************************************/
+
+//sidebar
+.mainWrapper__sidebar
+	background: $tecser_black
+	height    : 100%
+	left      : 0
+	padding   : 20px
+	position  : fixed
+	top       : 70px
+	width     : 20%
+	//lista
+	ul 
+		list-style-type: none
+		margin         : 0 auto 
+		padding        : 0
+		li 
+			a 
+				border-left    : 4px solid transparent
+				color          : white
+				display        : block
+				font-size      : 17px
+				margin         : 15px auto
+				padding        : 8px
+				text-decoration: none 
+				+transition( all 500ms ease )
+				
+				//span 
+				span 
+					margin: 0 5px 0 0
+
+				//hover
+				&.active ,&:hover
+					border-left: 4px solid $tecser_blue
+
+//CONTENEDOR GENERAL
+.mainWrapper__content
+	padding: 20px 0
+
+
+//TITULOS
+.mainWrapper__title
+	color : white 
+	margin: 0 auto 10px
+
+//SUBTITULOS
+.mainWrapper__subtitle
+	color    : white 
+	font-size: 20px
+	margin   : 0 auto 15px

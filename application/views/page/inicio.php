@@ -7,11 +7,11 @@
 		<div class="container">
 			<div class="row">
 				<!-- Seccion Buscador -->
-				<div class="col-xs-9">
+				<div class="col-xs-12 col-md-9">
 					<!-- Buscador de Google -->
 					<section class="sectionPage__search">
 						<div class="row">
-							<div class="col-xs-9 text-center">
+							<div class="col-xs-12 col-md-9 text-center">
 								<!-- Logo google -->
 								<a href="" class="logo__google">
 									<img src="<?= IMAGES ?>/logos/google.png" alt="" class="img-responsive" />
@@ -39,8 +39,9 @@
 						</div><!-- /.row  -->
 					</section> <!-- /.sectionPage__search -->
 				</div><!-- /.col-xs-9 -->
+
 				<!-- Seccion Logeo -->
-				<div class="col-xs-3">
+				<div class="col-md-3 hidden-xs">
 					<section class="sectionPage__login">
 						<form method="POST" action="#">
 							<h2 class="text-uppercase text-center">área usuario</h2>
@@ -72,7 +73,7 @@
 		<div class="container">
 			<div class="row">
 				<!-- Banner1 -->
-				<div class="col-xs-4">
+				<div class="col-xs-12 col-md-4">
 					<section id='slider-home-1' class="nivoSlider sectionPage__banner">
 						<img src="<?= IMAGES ?>/banners/banner1_1.jpg" alt="" class="img-responsive" />
 						<img src="<?= IMAGES ?>/banners/banner1_2.jpg" alt="" class="img-responsive" />
@@ -83,7 +84,7 @@
 				</div><!-- /.col-xs-4 -->			
 
 				<!-- Banner2 -->
-				<div class="col-xs-8">
+				<div class="col-xs-12 col-md-8">
 					<section id='slider-home-2' class="carousel slide sectionPage__banner" data-ride="carousel">
 
 						<div class="carousel-inner" role="listbox">
@@ -243,26 +244,26 @@
 			<section class="sectionPage__common__promotions">
 		
 				<div class="row relative">
-					<div class="col-xs-3">
+					<div class="col-xs-12 col-md-3">
 						<figure class="item__promo">
 							<img src="<?= IMAGES ?>/buscabas/buscabas_1.jpg" alt="" class="img-responsive" />
 						</figure> <!-- /.item__promo -->
-					</div> <!-- /.col-xs-3 -->
-					<div class="col-xs-3">
+					</div> <!-- /.col-xs-12 col-md-3 -->
+					<div class="col-xs-12 col-md-3">
 						<figure class="item__promo">
 							<img src="<?= IMAGES ?>/buscabas/buscabas_2.jpg" alt="" class="img-responsive" />
 						</figure> <!-- /.item__promo -->
-					</div> <!-- /.col-xs-3 -->
-					<div class="col-xs-3">
+					</div> <!-- /.col-xs-12 col-md-3 -->
+					<div class="col-xs-12 col-md-3">
 						<figure class="item__promo">
 							<img src="<?= IMAGES ?>/buscabas/buscabas_3.jpg" alt="" class="img-responsive" />
 						</figure> <!-- /.item__promo -->
-					</div> <!-- /.col-xs-3 -->
-					<div class="col-xs-3">
+					</div> <!-- /.col-xs-12 col-md-3 -->
+					<div class="col-xs-12 col-md-3">
 						<figure class="item__promo">
 							<img src="<?= IMAGES ?>/buscabas/buscabas_4.jpg" alt="" class="img-responsive" />
 						</figure> <!-- /.item__promo -->
-					</div> <!-- /.col-xs-3 -->			
+					</div> <!-- /.col-xs-12 col-md-3 -->			
 
 				</div><!-- /.row -->
 				
@@ -286,38 +287,38 @@
 		<div class="container">
 			<div class="row">
 				<!-- Seccion de promociones -->
-				<div class="col-xs-9">
+				<div class="col-xs-12 col-md-9">
 					<section class="sectionPage__miscelaneo__our-promotions">
 						<!-- Titulo -->
 						<h2 class="sectionCommon__title text-uppercase"> nuestras promociones </h2>
 						
 						<!-- Promociones -->
-						<article class="col-xs-6">
+						<article class="col-xs-12 col-md-6">
 							<figure>
 								<img src="<?= IMAGES ?>/promociones/promo_1.jpg" alt="" class="img-responsive" />
 							</figure>
-						</article> <!-- /.col-xs-6 -->
-						<article class="col-xs-6">
+						</article> <!-- /.col-xs-12 col-md-6 -->
+						<article class="col-xs-12 col-md-6">
 							<figure>
 								<img src="<?= IMAGES ?>/promociones/promo_2.jpg" alt="" class="img-responsive" />
 							</figure>
-						</article> <!-- /.col-xs-6 -->
-						<article class="col-xs-6">
+						</article> <!-- /.col-xs-12 col-md-6 -->
+						<article class="col-xs-12 col-md-6">
 							<figure>
 								<img src="<?= IMAGES ?>/promociones/promo_3.jpg" alt="" class="img-responsive" />
 							</figure>
-						</article> <!-- /.col-xs-6 -->
-						<article class="col-xs-6">
+						</article> <!-- /.col-xs-12 col-md-6 -->
+						<article class="col-xs-12 col-md-6">
 							<figure>
 								<img src="<?= IMAGES ?>/promociones/promo_4.jpg" alt="" class="img-responsive" />
 							</figure>
-						</article> <!-- /.col-xs-6 -->
+						</article> <!-- /.col-xs-12 col-md-6 -->
 
 					</section><!-- /.sectionPage__miscelaneo__our-promotions -->
 				</div><!-- /.col-xs-9 -->
 
 				<!-- Seccion facebook -->
-				<div class="col-xs-3">
+				<div class="col-xs-12 col-md-3">
 
 					<section class="sectionPage__miscelaneo__fb">
 						<!-- Titulo -->
@@ -361,7 +362,7 @@
 			<!-- Contenedor -->
 			<section class="sectionPage__utilitario__content text-center">
 				<div class="row">
-					<div class="col-xs-3">
+					<div class="col-xs-12 col-md-3">
 						<article>
 							<a target="_blank" href="#">Descargar musica mp3</a>
 							<a target="_blank" href="#">Descargar musica mp3</a>
@@ -371,8 +372,8 @@
 							<a target="_blank" href="#">Descargar musica mp3</a>
 							<a target="_blank" href="#">Descargar musica mp3</a>
 						</article> <!-- /article -->
-					</div><!-- /. col-xs-3 -->
-					<div class="col-xs-3">
+					</div><!-- /. col-xs-12 col-md-3 -->
+					<div class="col-xs-12 col-md-3">
 						<article>
 							<a target="_blank" href="#">Descargar musica mp3</a>
 							<a target="_blank" href="#">Descargar musica mp3</a>
@@ -382,8 +383,8 @@
 							<a target="_blank" href="#">Descargar musica mp3</a>
 							<a target="_blank" href="#">Descargar musica mp3</a>
 						</article> <!-- /article -->
-					</div><!-- /. col-xs-3 -->
-					<div class="col-xs-3">
+					</div><!-- /. col-xs-12 col-md-3 -->
+					<div class="col-xs-12 col-md-3">
 						<article>
 							<a target="_blank" href="#">Descargar musica mp3</a>
 							<a target="_blank" href="#">Descargar musica mp3</a>
@@ -393,8 +394,8 @@
 							<a target="_blank" href="#">Descargar musica mp3</a>
 							<a target="_blank" href="#">Descargar musica mp3</a>
 						</article> <!-- /article -->
-					</div><!-- /. col-xs-3 -->
-					<div class="col-xs-3">
+					</div><!-- /. col-xs-12 col-md-3 -->
+					<div class="col-xs-12 col-md-3">
 						<article>
 							<a target="_blank" href="#">Descargar musica mp3</a>
 							<a target="_blank" href="#">Descargar musica mp3</a>
@@ -404,7 +405,7 @@
 							<a target="_blank" href="#">Descargar musica mp3</a>
 							<a target="_blank" href="#">Descargar musica mp3</a>
 						</article> <!-- /article -->
-					</div><!-- /. col-xs-3 -->
+					</div><!-- /. col-xs-12 col-md-3 -->
 				</div><!-- /.row -->
 			</section><!-- /.sectionPage__utilitario__content -->
 

@@ -4,6 +4,23 @@ var j = jQuery.noConflict();
 
 	j(document).on('ready',function(){
 
+		/* ---------  SLIDEBAR RESPONSIVE ---------*/
+		var mySlidebars = new j.slidebars({
+			disableOver       : 480, // integer or false
+			hideControlClasses: true, // true or false
+			scrollLock        : false, // true or false
+			siteClose         : true, // true or false
+		});
+
+		//abrir menu en mobile
+		j("#icon-menu-mobile").on('click',function(e){
+			e.preventDefault();
+			//open
+			mySlidebars.slidebars.toggle('left');
+		});
+
+
+
 		/* ---------  IR AL PRINCIPIO DE LA PÁGINA ---------*/
 		j(".js-to-link-up").on('click',function(e){
 			e.preventDefault();
@@ -69,6 +86,15 @@ var j = jQuery.noConflict();
 			margin: 70,
 			nav   : false,
 			items : 5,
+			responsive:{
+	        	320:{
+					items : 2,
+					margin: 10,
+	        	},
+	        	480:{
+	        		items: 5,
+	        	}
+	    	}
 		});
 
 		//eventos de flechas
