@@ -156,52 +156,52 @@
 				<!-- Contenedor de canales -->
 				<section id="sectionPage__programas__content" class="sliderProgramas">
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal1.jpg" alt="" class="img-responsive" />
+						<a href="http://192.168.10.2/centrolima/tv16.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal1.jpg" alt="" class="img-responsive" />
 							<span data-canal="http://vercanalestv.com/tv/nacionales/tnt.html"></span>
 						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal2.jpg" alt="" class="img-responsive" />
+						<a href="http://192.168.10.2/centrolima/tv4.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal2.jpg" alt="" class="img-responsive" />
 							<span data-canal="http://www.malosolandia.com/2012/07/ver-america-tv-de-peru-en-vivo-por.html"></span>
 						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal3.jpg" alt="" class="img-responsive" />
+						<a href="http://192.168.10.2/centrolima/tv9.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal3.jpg" alt="" class="img-responsive" />
 							<span data-canal="http://vercanalestv.com/tv/peru/atv.html"></span>
 						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal4.jpg" alt="" class="img-responsive"/>
+						<a href="http://192.168.10.2/centrolima/tv3.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal4.jpg" alt="" class="img-responsive"/>
 							<span data-canal="http://vercanalestv.com/tv/peru/cmd.html"></span>
 						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal5.jpg" alt="" class="img-responsive" />
+						<a href="http://192.168.10.2/centrolima/tv52.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal5.jpg" alt="" class="img-responsive" />
 							<span data-canal="http://vercanalestv.com/tv/deportes/espn-deportes.html"></span>
 						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal6.jpg" alt="" class="img-responsive" />
+						<a href="http://192.168.10.2/centrolima/tv50.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal6.jpg" alt="" class="img-responsive" />
 							<span data-canal="http://vercanalestv.com/tv/deportes/fox-sports.html"></span>
 						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal7.jpg" alt="" class="img-responsive" />
+						<a href="http://vercanalestv.com/tv/peru/global-tv.html" target="_blank"><img src="<?= IMAGES ?>/canales/canal7.jpg" alt="" class="img-responsive" />
 							<span data-canal="http://vercanalestv.com/tv/peru/global-tv.html"></span>
 						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal8.jpg" alt="" class="img-responsive" />
+						<a href=http://vercanalestv.com/tv/deportes/goltv.html"" target="_blank"><img src="<?= IMAGES ?>/canales/canal8.jpg" alt="" class="img-responsive" />
 							<span data-canal="http://vercanalestv.com/tv/deportes/goltv.html"></span>
 						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal9.jpg" alt="" class="img-responsive" />
+						<a href="http://192.168.10.2/centrolima/tv2.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal9.jpg" alt="" class="img-responsive" />
 							<span data-canal="http://vercanalestv.com/tv/peru/frecuencia-latina.html"></span>
 						</a>
 					</div><!-- /.item -->
 					<div class="item">
-						<a href=""><img src="<?= IMAGES ?>/canales/canal10.jpg" alt="" class="img-responsive" />
+						<a href="http://tvpor-internet.com/tlnovelas-en-vivo.html" target="_blank"><img src="<?= IMAGES ?>/canales/canal10.jpg" alt="" class="img-responsive" />
 							<span data-canal="http://tvpor-internet.com/tlnovelas-en-vivo.html"></span>
 						</a>
 					</div><!-- /.item -->
