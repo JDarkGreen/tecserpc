@@ -75,9 +75,6 @@
 				<!-- Banner1 -->
 				<div class="col-xs-12 col-md-4">
 					<section id='slider-home-1' class="nivoSlider sectionPage__banner">
-						<img src="<?= IMAGES ?>/banners/banner1_1.jpg" alt="" class="img-responsive" />
-						<img src="<?= IMAGES ?>/banners/banner1_2.jpg" alt="" class="img-responsive" />
-						<img src="<?= IMAGES ?>/banners/banner1_3.jpg" alt="" class="img-responsive" />
 						<img src="<?= IMAGES ?>/banners/banner1_4.jpg" alt="" class="img-responsive" />
 						<img src="<?= IMAGES ?>/banners/banner1_5.jpg" alt="" class="img-responsive" />
 					</section> <!-- /.sectionPage__banner1 -->
@@ -148,92 +145,80 @@
 	<!-- Seccion de Programación tv -->
 	<section id="seccion-tv" class="sectionPage__programas">
 		<div class="container">
-			<h2 class="sectionCommon__title text-uppercase"> Disfruta de la mejor programación en vivo solo en "centrolima"</h2>
-			
-			<!-- Seccion contenedora relativa -->
-			<div class="relative">
+		
+			<!-- Contenedor  -->
+			<section class="sectionPage__programas__content">
+
+				<h2 class="sectionCommon__title text-uppercase"> Disfruta de la mejor programación en vivo solo en "centrolima"</h2>
 				
-				<!-- Contenedor de canales -->
-				<section id="sectionPage__programas__content" class="sliderProgramas">
-					<div class="item">
-						<a href="http://192.168.10.2/centrolima/tv16.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal1.jpg" alt="" class="img-responsive" />
-							<span data-canal="http://vercanalestv.com/tv/nacionales/tnt.html"></span>
-						</a>
-					</div><!-- /.item -->
-					<div class="item">
-						<a href="http://192.168.10.2/centrolima/tv4.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal2.jpg" alt="" class="img-responsive" />
-							<span data-canal="http://www.malosolandia.com/2012/07/ver-america-tv-de-peru-en-vivo-por.html"></span>
-						</a>
-					</div><!-- /.item -->
-					<div class="item">
-						<a href="http://192.168.10.2/centrolima/tv9.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal3.jpg" alt="" class="img-responsive" />
-							<span data-canal="http://vercanalestv.com/tv/peru/atv.html"></span>
-						</a>
-					</div><!-- /.item -->
-					<div class="item">
-						<a href="http://192.168.10.2/centrolima/tv3.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal4.jpg" alt="" class="img-responsive"/>
-							<span data-canal="http://vercanalestv.com/tv/peru/cmd.html"></span>
-						</a>
-					</div><!-- /.item -->
-					<div class="item">
-						<a href="http://192.168.10.2/centrolima/tv52.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal5.jpg" alt="" class="img-responsive" />
-							<span data-canal="http://vercanalestv.com/tv/deportes/espn-deportes.html"></span>
-						</a>
-					</div><!-- /.item -->
-					<div class="item">
-						<a href="http://192.168.10.2/centrolima/tv50.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal6.jpg" alt="" class="img-responsive" />
-							<span data-canal="http://vercanalestv.com/tv/deportes/fox-sports.html"></span>
-						</a>
-					</div><!-- /.item -->
-					<div class="item">
-						<a href="http://vercanalestv.com/tv/peru/global-tv.html" target="_blank"><img src="<?= IMAGES ?>/canales/canal7.jpg" alt="" class="img-responsive" />
-							<span data-canal="http://vercanalestv.com/tv/peru/global-tv.html"></span>
-						</a>
-					</div><!-- /.item -->
-					<div class="item">
-						<a href=http://vercanalestv.com/tv/deportes/goltv.html"" target="_blank"><img src="<?= IMAGES ?>/canales/canal8.jpg" alt="" class="img-responsive" />
-							<span data-canal="http://vercanalestv.com/tv/deportes/goltv.html"></span>
-						</a>
-					</div><!-- /.item -->
-					<div class="item">
-						<a href="http://192.168.10.2/centrolima/tv2.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal9.jpg" alt="" class="img-responsive" />
-							<span data-canal="http://vercanalestv.com/tv/peru/frecuencia-latina.html"></span>
-						</a>
-					</div><!-- /.item -->
-					<div class="item">
-						<a href="http://tvpor-internet.com/tlnovelas-en-vivo.html" target="_blank"><img src="<?= IMAGES ?>/canales/canal10.jpg" alt="" class="img-responsive" />
-							<span data-canal="http://tvpor-internet.com/tlnovelas-en-vivo.html"></span>
-						</a>
-					</div><!-- /.item -->
-				</section><!-- /.sectionPage__programas__content -->
+				<!-- Seccion contenedora relativa -->
+				<div class="relative">
+					
+					<!-- Contenedor de canales -->
+					<section id="sectionPage__programas__content" class="sliderProgramas">
+						<div class="item">
+							<a href="http://192.168.10.2/centrolima/tv16.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal1.jpg" alt="" class="img-responsive" />
+								<span data-canal="http://192.168.10.2/centrolima/tv16.php"></span>
+							</a>
+						</div><!-- /.item -->
+						<div class="item">
+							<a href="http://192.168.10.2/centrolima/tv4.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal2.jpg" alt="" class="img-responsive" />
+								<span data-canal="http://192.168.10.2/centrolima/tv4.php"></span>
+							</a>
+						</div><!-- /.item -->
+						<div class="item">
+							<a href="http://192.168.10.2/centrolima/tv9.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal3.jpg" alt="" class="img-responsive" />
+								<span data-canal="http://192.168.10.2/centrolima/tv9.php"></span>
+							</a>
+						</div><!-- /.item -->
+						<div class="item">
+							<a href="http://192.168.10.2/centrolima/tv3.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal4.jpg" alt="" class="img-responsive"/>
+								<span data-canal="http://192.168.10.2/centrolima/tv3.php"></span>
+							</a>
+						</div><!-- /.item -->
+						<div class="item">
+							<a href="http://192.168.10.2/centrolima/tv52.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal5.jpg" alt="" class="img-responsive" />
+								<span data-canal="http://192.168.10.2/centrolima/tv52.php"></span>
+							</a>
+						</div><!-- /.item -->
+						<div class="item">
+							<a href="http://192.168.10.2/centrolima/tv50.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal6.jpg" alt="" class="img-responsive" />
+								<span data-canal="http://192.168.10.2/centrolima/tv50.php"></span>
+							</a>
+						</div><!-- /.item -->
+						<div class="item">
+							<a href="http://vercanalestv.com/tv/peru/global-tv.html" target="_blank"><img src="<?= IMAGES ?>/canales/canal7.jpg" alt="" class="img-responsive" />
+								<span data-canal="http://vercanalestv.com/tv/peru/global-tv.html"></span>
+							</a>
+						</div><!-- /.item -->
+						<div class="item">
+							<a href="http://vercanalestv.com/tv/deportes/goltv.html" target="_blank"><img src="<?= IMAGES ?>/canales/canal8.jpg" alt="" class="img-responsive" />
+								<span data-canal="http://vercanalestv.com/tv/deportes/goltv.html"></span>
+							</a>
+						</div><!-- /.item -->
+						<div class="item">
+							<a href="http://192.168.10.2/centrolima/tv2.php" target="_blank"><img src="<?= IMAGES ?>/canales/canal9.jpg" alt="" class="img-responsive" />
+								<span data-canal="http://192.168.10.2/centrolima/tv2.php"></span>
+							</a>
+						</div><!-- /.item -->
+						<div class="item">
+							<a href="http://tvpor-internet.com/tlnovelas-en-vivo.html" target="_blank"><img src="<?= IMAGES ?>/canales/canal10.jpg" alt="" class="img-responsive" />
+								<span data-canal="http://tvpor-internet.com/tlnovelas-en-vivo.html"></span>
+							</a>
+						</div><!-- /.item -->
+					</section><!-- /.sectionPage__programas__content -->
 
-				<!-- Flechas -->
-				<a href="#" id="arrow-prev-programas" class="arrowProgramas arrowProgramas--prev"></a>
-				<a href="#" id="arrow-next-programas" class="arrowProgramas arrowProgramas--next"></a>
+					<!-- Flechas -->
+					<a href="#" id="arrow-prev-programas" class="arrowProgramas arrowProgramas--prev"></a>
+					<a href="#" id="arrow-next-programas" class="arrowProgramas arrowProgramas--next"></a>
 
-			</div><!-- /.relative -->
+				</div><!-- /.relative -->
+				
+			</section> <!-- /.sectionPage__programas__content -->
 
 		</div> <!-- /.container -->
 	</section><!-- /.sectionPage__programas -->
 	
-	<!-- Modal que contiene el frame -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	  <div class="modal-dialog" role="document">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	      </div>
-	      <div class="modal-body">
-			
-			<!-- IFrame Canal -->
-			<iframe id="frame-canal" src="" frameborder="0" scrolling="No" style="height: 400px; max-width: 100%; width:100%;"></iframe>
-	      
-	      </div> <!-- /modalbody -->
-	    </div> <!-- /modal content -->
-	  </div> <!-- /modal dialog -->
-	</div> <!-- modal fade -->
-
-
 	<!-- Seccion lo que buscabas -->
 	<section id="seccion-publicidad" class="sectionPage__common">
 		<div class="container">
@@ -249,19 +234,22 @@
 							<img src="<?= IMAGES ?>/buscabas/buscabas_1.jpg" alt="" class="img-responsive" />
 						</figure> <!-- /.item__promo -->
 					</div> <!-- /.col-xs-12 col-md-3 -->
+
 					<div class="col-xs-12 col-md-3">
 						<figure class="item__promo">
 							<img src="<?= IMAGES ?>/buscabas/buscabas_2.jpg" alt="" class="img-responsive" />
 						</figure> <!-- /.item__promo -->
-					</div> <!-- /.col-xs-12 col-md-3 -->
+					</div> <!-- /.col-xs-12 col-md-3 -->						
+
 					<div class="col-xs-12 col-md-3">
 						<figure class="item__promo">
-							<img src="<?= IMAGES ?>/buscabas/buscabas_3.jpg" alt="" class="img-responsive" />
+							<img src="<?= IMAGES ?>/buscabas/buscabas_2.jpg" alt="" class="img-responsive" />
 						</figure> <!-- /.item__promo -->
-					</div> <!-- /.col-xs-12 col-md-3 -->
+					</div> <!-- /.col-xs-12 col-md-3 -->						
+
 					<div class="col-xs-12 col-md-3">
 						<figure class="item__promo">
-							<img src="<?= IMAGES ?>/buscabas/buscabas_4.jpg" alt="" class="img-responsive" />
+							<img src="<?= IMAGES ?>/buscabas/buscabas_2.jpg" alt="" class="img-responsive" />
 						</figure> <!-- /.item__promo -->
 					</div> <!-- /.col-xs-12 col-md-3 -->			
 
@@ -295,7 +283,7 @@
 						<!-- Promociones -->
 						<article class="col-xs-12 col-md-6">
 							<figure>
-								<img src="<?= IMAGES ?>/promociones/promo_1.jpg" alt="" class="img-responsive" />
+								<img src="<?= IMAGES ?>/promociones/promo_2.jpg" alt="" class="img-responsive" />
 							</figure>
 						</article> <!-- /.col-xs-12 col-md-6 -->
 						<article class="col-xs-12 col-md-6">
@@ -305,12 +293,12 @@
 						</article> <!-- /.col-xs-12 col-md-6 -->
 						<article class="col-xs-12 col-md-6">
 							<figure>
-								<img src="<?= IMAGES ?>/promociones/promo_3.jpg" alt="" class="img-responsive" />
+								<img src="<?= IMAGES ?>/promociones/promo_2.jpg" alt="" class="img-responsive" />
 							</figure>
 						</article> <!-- /.col-xs-12 col-md-6 -->
 						<article class="col-xs-12 col-md-6">
 							<figure>
-								<img src="<?= IMAGES ?>/promociones/promo_4.jpg" alt="" class="img-responsive" />
+								<img src="<?= IMAGES ?>/promociones/promo_2.jpg" alt="" class="img-responsive" />
 							</figure>
 						</article> <!-- /.col-xs-12 col-md-6 -->
 

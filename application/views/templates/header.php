@@ -64,6 +64,25 @@
 	</div><!-- /.container -->
 </header> <!-- /.mainHeader -->
 
+<!-- Modal que contiene el frame -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				 <h3 class="text-uppercase text-center ">Estás viendo: <span id="nombre-canal"></span>
+				 </h3>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+
+				<!-- IFrame Canal -->
+				<iframe id="frame-canal" src="" frameborder="0" scrolling="No" style="height: 400px; max-width: 100%; width:100%;"></iframe>
+
+			</div> <!-- /modalbody -->
+		</div> <!-- /modal content -->
+	</div> <!-- /modal dialog -->
+</div> <!-- modal fade -->
+
 <!-- ASIDE BAR DE NAVEGACION SOLO EN VERSION MOBILE -->
 <div class="sb-slidebar sb-left">
 	<nav class="mainNavigation">

@@ -61,9 +61,12 @@ body,html
 /*----------------- SOBREESCRIBIR CLASES ---------------------------------*/
 /*-------------------------------------------------------------------------*/
 
+/* overwrite contenedor */
 .modal
-	position: relative
+	//position: relative
 	z-index : 9999999999999999
+.modal-backdrop
+	background: transparent !important
 
 /*-------------------------------------------------------------------------*/
 /*----------------------- SECCIONES COMUNES -------------------------------*/
@@ -122,7 +125,7 @@ body,html
 	left         : 0 
 	position     : fixed
 	right        : 0
-	z-index      : 9999999
+	z-index      : 999
 
 //Imagen
 .mainHeader__image
@@ -266,9 +269,8 @@ body,html
 /*-------------------------- SECCION DE BANNERS ---------------------------*/
 /*-------------------------------------------------------------------------*/
 .sectionPage__banners
-	margin: 20px auto 30px
+	margin: 15px auto 13px
 	
-
 /* <<================ BANNNER ===============*/
 .sectionPage__banner
 	+box-shadow( 3px 3px 4px gray )
@@ -308,7 +310,7 @@ body,html
 /*-------------------------------------------------------------------------*/
 .sectionPage__access
 	background: $tecser_gray
-	padding   : 5px 0
+	padding   : 25px 0
 	//contenedor
 	.sectionPage__access__content
 		align-items    : center
@@ -327,17 +329,26 @@ body,html
 			a 
 				display: block
 				margin : 0 10px
-				+transition( all 500ms ease )
+				img
+					webkit-backface-visibility: hidden
+					backface-visibility: hidden
+					+transform( scale(1.0) translateZ(0) )
+					+transition( all 500ms ease )
 				//hover
 				&:hover
-					+opacity( 0.8 )
+					img 
+						+scale( 1.2 )
 
 /*-------------------------------------------------------------------------*/
 /*--------------------- PROGRAMACION   ---------------------------*/
 /*-------------------------------------------------------------------------*/
 
 .sectionPage__programas
-	margin: 55px auto 58px
+	margin: 15px auto
+	//Contenedor
+	.sectionPage__programas__content
+		border : 1px solid $tecser_gray_claro 
+		padding: 20px 15px
 	//carousel
 	.sliderProgramas
 		margin : 34px auto 0
@@ -351,7 +362,7 @@ body,html
 		position       : absolute
 		top            : 50% 
 		width          : 22px
-		z-index        : 999
+		z-index        : 99
 		//Hover
 		&:hover 
 			animation: movepulse 900ms linear infinite
@@ -369,7 +380,7 @@ body,html
 /*-------------------------------------------------------------------------*/
 
 .sectionPage__miscelaneo
-	margin: 38px auto
+	margin: 13px auto 10px
 	//Articulos
 	article
 		//imagenes
@@ -404,7 +415,7 @@ body,html
 .mainFooter
 	background: $tecser_blue
 	color     : white 
-	margin    : 45px auto 0
+	margin    : 15px auto 0
 	padding   : 29px 0 50px
 	position  : relative
 
@@ -414,13 +425,12 @@ body,html
 	flex-wrap: wrap 
 	//lista en general
 	ul 
-		margin : 0 auto 
-		padding: 0
-
+		margin: 0
 		//Redes Sociales
 		&.mainFooter__social-link
 			list-style-type: none 
 			margin         : 20px auto 0
+			padding        : 0
 			li 
 				display: inline-block
 				padding: 0 7px
@@ -449,7 +459,7 @@ body,html
 .mainFooter__title
 	font-size     : 19px
 	font-weight   : 600 
-	margin        : 0 auto 20px
+	margin        : 0 auto 25px
 	text-align    : center 
 	text-transform: uppercase
 
@@ -459,7 +469,8 @@ body,html
 
 //lista
 .mainFooter__list
-	list-style-type: none
+	list-style-type: circle
+	padding        : 0 20%
 	li 
 		margin: 0 auto 5px
 		span
@@ -469,6 +480,11 @@ body,html
 			margin    : 0 13px 0 0
 			text-align: center
 			width     : 20px
+
+//variacion sin estilo
+.mainFooter__list--unstyled
+	list-style-type: none !important
+	padding        : 0
 
 //articulos en comun
 .mainFooter__article
@@ -533,6 +549,7 @@ body,html
 	.sectionPage__programas 
 		.sliderProgramas
 			padding: 0 35px
+	
 
 	/*------------- FOOTER ---------------------*/
 	.mainFooter__content

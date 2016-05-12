@@ -14,7 +14,7 @@
 			<!-- Informacion del Footer -->
 			<article class="mainFooter__article mainFooter__sec-description">
 				<!-- Titulo -->
-				<h2 class="mainFooter__title">nosotros</h2>
+				<!--h2 class="mainFooter__title">nosotros</h2-->
 				<!-- Logo -->
 				<figure><img src="<?= IMAGES ?>/logo1.png" alt="" class="img-responsive"></figure>
 				<!-- Descripción -->
@@ -28,9 +28,8 @@
 				<!-- Titulo -->
 				<h2 class="mainFooter__title">servicios</h2>
 
-				<br/>
 				<!-- Lista -->
-				<ul class="mainFooter__list text-center">
+				<ul class="mainFooter__list text-left">
 					<li>Internet</li>
 					<li>Reparación de PC</li>
 					<li>Venta de Laptops</li>
@@ -45,7 +44,7 @@
 				<!-- Titulo -->
 				<h2 class="mainFooter__title">contacto</h2>
 				<!-- Lista -->
-				<ul class="mainFooter__list">
+				<ul class="mainFooter__list mainFooter__list--unstyled">
 					<li>
 						<i class="fa fa-mobile" aria-hidden="true"></i>
  						987654321 
