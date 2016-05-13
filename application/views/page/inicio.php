@@ -77,6 +77,7 @@
 					<section id='slider-home-1' class="nivoSlider sectionPage__banner">
 						<img src="<?= IMAGES ?>/banners/banner1_4.jpg" alt="" class="img-responsive" />
 						<img src="<?= IMAGES ?>/banners/banner1_5.jpg" alt="" class="img-responsive" />
+						<img src="<?= IMAGES ?>/banners/diseno-paginas-web-centrolima-peru.jpg" alt="diseno-paginas-web-centrolima-peru" class="img-responsive" />
 					</section> <!-- /.sectionPage__banner1 -->
 				</div><!-- /.col-xs-4 -->			
 

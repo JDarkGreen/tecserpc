@@ -24,6 +24,17 @@
 	<!-- Estilos -->
 	<link rel="stylesheet" href="<?= base_url('assets/css/master.css');  ?>" />
 
+	<!-- Cargar zoomit -->
+	<!--Start of Zopim Live Chat Script-->
+	<script type="text/javascript">
+	window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+	d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+	_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+	$.src="//v2.zopim.com/?3ubzF8uIDAn1dS9yM4wA45QJvPMdgtTM";z.t=+new Date;$.
+	type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+	</script>
+	<!--End of Zopim Live Chat Script-->	
+
 </head>
 <body>
 
@@ -69,8 +80,6 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				 <h3 class="text-uppercase text-center ">Estás viendo: <span id="nombre-canal"></span>
-				 </h3>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 			</div>
 			<div class="modal-body">
