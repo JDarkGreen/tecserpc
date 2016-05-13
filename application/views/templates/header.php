@@ -78,6 +78,8 @@
 				<!-- IFrame Canal -->
 				<iframe id="frame-canal" src="" frameborder="0" scrolling="No" style="height: 400px; max-width: 100%; width:100%;"></iframe>
 
+				<!-- Mensaje o alerta -->
+
 			</div> <!-- /modalbody -->
 		</div> <!-- /modal content -->
 	</div> <!-- /modal dialog -->

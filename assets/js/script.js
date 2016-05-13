@@ -111,7 +111,7 @@ var j = jQuery.noConflict();
 		/* ---------------- ABRIR MODAL DEW PROGRAMACION --------------*/
 		var modal_pro = j("#myModal"); 
 
-		/*j(".sliderProgramas .item a").on('click',function(e){
+		j(".sliderProgramas .item a").on('click',function(e){
 			e.preventDefault(); //desactivar funcion predeterminada
 			//obtener src de canal
 			var canal = j(this).find('span').attr('data-canal');
@@ -124,7 +124,7 @@ var j = jQuery.noConflict();
 		//al cerrar modal detener frame
 		modal_pro.on('hidden.bs.modal', function (e) {
 		  j("#frame-canal").attr('src', '' );
-		});*/
+		});
 
 	});
 
