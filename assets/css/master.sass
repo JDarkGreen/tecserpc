@@ -57,9 +57,19 @@ body,html
 .relative
 	position: relative
 
+//contenedor flex
+.flex-wrap-center
+	display        : flex
+	flex-wrap      : wrap
+	justify-content: center 
+
 /*-------------------------------------------------------------------------*/
 /*----------------- SOBREESCRIBIR CLASES ---------------------------------*/
 /*-------------------------------------------------------------------------*/
+
+/* CLASE SB SITE RESPONSIVE */
+#sb-site
+	background: rgba(0,0,0,.04)
 
 /* overwrite contenedor */
 .modal
@@ -83,7 +93,7 @@ body,html
 	margin: 10px auto 0
 	//item
 	.item__promo
-		margin: 0 auto 15px
+		margin: 0 auto 6px
 		border: 1px solid gray 
 
 //Seccion de banner
@@ -269,7 +279,7 @@ body,html
 /*-------------------------- SECCION DE BANNERS ---------------------------*/
 /*-------------------------------------------------------------------------*/
 .sectionPage__banners
-	margin: 15px auto 13px
+	margin: 6px auto 8px
 	
 /* <<================ BANNNER ===============*/
 .sectionPage__banner
@@ -289,9 +299,11 @@ body,html
 
 .nivo-controlNav
 	bottom     : 25px 
+	left       : 0
 	line-height: 1em
 	padding    : 0
-	position   : relative
+	position   : absolute
+	right      : 0
 	z-index    : 99
 	//Captions del banner sobreescribir libreria nivoslider
 	.nivo-control
@@ -344,11 +356,12 @@ body,html
 /*-------------------------------------------------------------------------*/
 
 .sectionPage__programas
-	margin: 15px auto
+	margin: 6px auto
 	//Contenedor
 	.sectionPage__programas__content
-		border : 1px solid $tecser_gray_claro 
-		padding: 20px 15px
+		background: white 
+		border    : 1px solid $tecser_gray_claro 
+		padding   : 20px 15px
 	//carousel
 	.sliderProgramas
 		margin : 34px auto 0
@@ -380,12 +393,12 @@ body,html
 /*-------------------------------------------------------------------------*/
 
 .sectionPage__miscelaneo
-	margin: 13px auto 10px
+	margin: 6px auto 0
 	//Articulos
 	article
 		//imagenes
 		figure 
-			margin: 0 auto 10px
+			margin: 0 auto 7px
 			+box-shadow( 3px 2px 4px gray ) 
 	//
 
@@ -415,7 +428,7 @@ body,html
 .mainFooter
 	background: $tecser_blue
 	color     : white 
-	margin    : 15px auto 0
+	margin    : 6px auto 0
 	padding   : 29px 0 50px
 	position  : relative
 
@@ -470,7 +483,7 @@ body,html
 //lista
 .mainFooter__list
 	list-style-type: circle
-	padding        : 0 20%
+	padding        : 0 17%
 	li 
 		margin: 0 auto 5px
 		span

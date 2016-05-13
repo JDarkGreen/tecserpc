@@ -349,9 +349,9 @@
 			<h2 class="sectionCommon__title text-uppercase"> descarga utilitario </h2>	
 			
 			<!-- Contenedor -->
-			<section class="sectionPage__utilitario__content text-center">
+			<section class="sectionPage__utilitario__content">
 				<div class="row">
-					<div class="col-xs-12 col-md-3">
+					<div class="col-xs-12 col-md-3 flex-wrap-center ">
 						<article>
 							<a target="_blank" href="#">Descargar Winrar</a>
 							<a target="_blank" href="#">Descargar Winzip</a>
@@ -361,8 +361,8 @@
 							<a target="_blank" href="#">Mas descargas Pronto</a>
 							<a target="_blank" href="#">Mas descargas Pronto</a>
 						</article> <!-- /article -->
-					</div><!-- /. col-xs-12 col-md-3 -->
-					<div class="col-xs-12 col-md-3">
+					</div><!-- /. col-xs-12 col-md-3 flex-wrap-center -->
+					<div class="col-xs-12 col-md-3 flex-wrap-center">
 						<article>
 							<a target="_blank" href="#">Mas descargas Pronto</a>
 							<a target="_blank" href="#">Mas descargas Pronto</a>
@@ -372,8 +372,8 @@
 							<a target="_blank" href="#">Mas descargas Pronto</a>
 							<a target="_blank" href="#">Mas descargas Pronto</a>
 						</article> <!-- /article -->
-					</div><!-- /. col-xs-12 col-md-3 -->
-					<div class="col-xs-12 col-md-3">
+					</div><!-- /. col-xs-12 col-md-3 flex-wrap-center -->
+					<div class="col-xs-12 col-md-3 flex-wrap-center">
 						<article>
 							<a target="_blank" href="#">Mas descargas Pronto</a>
 							<a target="_blank" href="#">Mas descargas Pronto</a>
@@ -383,8 +383,8 @@
 							<a target="_blank" href="#">Mas descargas Pronto</a>
 							<a target="_blank" href="#">Mas descargas Pronto</a>
 						</article> <!-- /article -->
-					</div><!-- /. col-xs-12 col-md-3 -->
-					<div class="col-xs-12 col-md-3">
+					</div><!-- /. col-xs-12 col-md-3 flex-wrap-center -->
+					<div class="col-xs-12 col-md-3 flex-wrap-center">
 						<article>
 							<a target="_blank" href="#">Mas descargas Pronto</a>
 							<a target="_blank" href="#">Mas descargas Pronto</a>
@@ -394,7 +394,7 @@
 							<a target="_blank" href="#">Mas descargas Pronto</a>
 							<a target="_blank" href="#">Mas descargas Pronto</a>
 						</article> <!-- /article -->
-					</div><!-- /. col-xs-12 col-md-3 -->
+					</div><!-- /. col-xs-12 col-md-3 flex-wrap-center -->
 				</div><!-- /.row -->
 			</section><!-- /.sectionPage__utilitario__content -->
 
