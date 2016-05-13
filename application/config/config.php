@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/tecser';
-#$config['base_url'] = 'http://iuigv.com/tecser';
+#$config['base_url'] = 'http://www.tecserpc.com.pe/centrolima';
 
 /*
 |--------------------------------------------------------------------------

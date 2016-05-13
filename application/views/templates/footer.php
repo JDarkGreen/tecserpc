@@ -19,7 +19,7 @@
 				<figure><img src="<?= IMAGES ?>/logo1.png" alt="" class="img-responsive"></figure>
 				<!-- Descripción -->
 				<p class="mainFooter__parragraph text-justify">
-					Compra tu móvil nuevo en nuestro catálogo online !Y con delívery! Compra tu móvil nuevo en nuestro catálogo online !Y con delívery! Compra tu móvil nuevo en nuestro catálogo online !Y con delívery!Compra tu móvil nuevo en nuestro catálogo online !Y con delívery! Compra tu móvil nuevo en nuestro catálogo online !Y con delívery!
+					Somos una empresa de Soluciones Tecnológicas, dedicada al soporte tecnico Técnico de PC, Venta de suministros informaticos, Instalación de Redes y Servidores. Brindamos soluciones informáticos para PyMEs y grandes empresas, ofrecemos un servicio innovador y diferencial. Contamos con amplia experiencia y con una cartera de clientes satisfechos.
 				</p><!-- /.mainFooter__parragraph -->
 			</article><!-- /.mainFooter__sec-description -->
 
@@ -30,12 +30,11 @@
 
 				<!-- Lista -->
 				<ul class="mainFooter__list text-left">
-					<li>Internet</li>
+					<li>Proveedor de Internet</li>
 					<li>Reparación de PC</li>
-					<li>Venta de Laptops</li>
-					<li>Reparación de PC</li>
-					<li>Internet</li>
-					<li>Venta de Laptops</li>
+					<li>Instalacion Redes del Hogar y Empresas</li>
+					<li>Configuración de Servidores</li>
+					<li>Suministros Informaticos</li>
 				</ul><!-- /.mainFooter__list-->
 			</article><!-- /.mainFooter__sec-services -->
 
@@ -47,10 +46,10 @@
 				<ul class="mainFooter__list mainFooter__list--unstyled">
 					<li>
 						<i class="fa fa-mobile" aria-hidden="true"></i>
- 						987654321 
+ 						 993-608-012
  					</li>
 					<li><i class="fa fa-envelope" aria-hidden="true"></i>
-						 <span>tecserpc@hotmail.com</span> </li>
+						 <span>soporte@tecserpc.com.pe</span> </li>
 					<li>
 						<i class="fa fa-map-marker" aria-hidden="true"></i>
 						Stand 3312 CENTROLIMA 

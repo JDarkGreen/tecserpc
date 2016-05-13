@@ -263,8 +263,8 @@
 	<!-- Banner consultanos -->
 	<section class="sectionPage__common sectionPage__common__banner">
 		<div class="container">
-			<section class="section__content">
-				<p>Consulta nuestros servicios</p>
+			<section class="section__content text-uppercase">
+				<p>más información en </p>
 				<p> <img src="<?= IMAGES ?>/iconos_contacto_rpm.png" alt="" class="inline-block" /> 993-608-012</p>
 			</section><!-- /.sectionPage__common__banner -->
 		</div><!-- /.container -->
@@ -352,46 +352,46 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-3">
 						<article>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
+							<a target="_blank" href="#">Descargar Winrar</a>
+							<a target="_blank" href="#">Descargar Winzip</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
 						</article> <!-- /article -->
 					</div><!-- /. col-xs-12 col-md-3 -->
 					<div class="col-xs-12 col-md-3">
 						<article>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
 						</article> <!-- /article -->
 					</div><!-- /. col-xs-12 col-md-3 -->
 					<div class="col-xs-12 col-md-3">
 						<article>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
 						</article> <!-- /article -->
 					</div><!-- /. col-xs-12 col-md-3 -->
 					<div class="col-xs-12 col-md-3">
 						<article>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
-							<a target="_blank" href="#">Descargar musica mp3</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
+							<a target="_blank" href="#">Mas descargas Pronto</a>
 						</article> <!-- /article -->
 					</div><!-- /. col-xs-12 col-md-3 -->
 				</div><!-- /.row -->

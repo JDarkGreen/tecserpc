@@ -81,9 +81,9 @@ $db['default'] = array(
 	'password' => '',
 	'database' => 'tecser',
 
-	#'username' => 'chullito_user',
-	#'password' => 'coyote13579',
-	#'database' => 'chullito_tecser',
+	/*'username' => 'tecserpc_user',
+	'password' => 'coyote13579',
+	'database' => 'tecserpc_centrolima',*/
 
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
