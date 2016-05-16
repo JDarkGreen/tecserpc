@@ -108,5 +108,33 @@
 	</nav><!-- /. -->   
 </div> <!-- /.nav -->
 
+<!-- Aside Links -->
+<aside class="sectionPage__common__sidebar-links">
+	<!-- Facebook -->
+	<a target="_blank" href="https://www.facebook.com/" class="">
+		<img src="<?= IMAGES ?>/links/facebook.jpg"  alt="" class="img-responsive" />
+	</a> <!-- /. -->
+	<!-- Youtube -->
+	<a target="_blank" href="https://www.youtube.com/" class="">
+		<img src="<?= IMAGES ?>/links/youtube.jpg" alt="" class="img-responsive" />
+	</a> <!-- /. -->
+	<!-- Sunat -->
+	<a target="_blank" href="http://www.sunat.gob.pe/" class="">
+		<img src="<?= IMAGES ?>/links/sunat.jpg" alt="" class="img-responsive" />
+	</a> <!-- /. -->
+	<!-- Sunarp -->
+	<a target="_blank" href="https://www.sunarp.gob.pe/" class="">
+		<img src="<?= IMAGES ?>/links/sunarp.jpg" alt="" class="img-responsive" />
+	</a> <!-- /. -->
+</aside> <!-- /.sectionPage__common__sidebar-links -->
+
+<!-- Elemento Modal de Inicio -->
+<a id="open-welcome-modal" href="#welcome-modal" class="hidden-xs"></a>
+
+<section id="welcome-modal" class="welcome-modal text-center">
+	<a class="modal_close" href="#">x</a>
+	<h2>La Solución del Corel X7 Ya esta aquí 993-608-012</h2>
+</section> <!-- /.welcome-modal -->
+
 <!-- Contenedor para mobile -->
 <div id="sb-site">

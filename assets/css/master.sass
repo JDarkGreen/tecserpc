@@ -40,6 +40,12 @@ $tecser_green        : #6EC81D
 $tecser_darkgreen    : #00AB00
 
 $tecser_yellow       : #FFFB00
+$tecser_darkyellow   : #FFB800
+$centrolima_yellow   : #E8FD00
+
+$tecser_guinda       : #76122c
+$tecser_crema        : #fce680
+
 
 
 /*-------------------------------------------------------------------------*/
@@ -90,7 +96,7 @@ body,html
 
 //Título
 .sectionCommon__title
-	color      : $tecser_blue
+	color      : $tecser_guinda
 	font-family: 'Bebas'
 	margin     : 0
 
@@ -104,7 +110,7 @@ body,html
 
 //Seccion de banner
 .sectionPage__common__banner
-	background: $tecser_skyblue
+	background: $tecser_guinda
 	//contenedor
 	.section__content
 		align-items    : center
@@ -132,12 +138,37 @@ body,html
 	top     : -30%
 
 
+//Aside - sidebar de navegación de Links
+.sectionPage__common__sidebar-links
+	position: fixed
+	right   : 0
+	top     : 40%
+	z-index : 9	
+	//link
+	a 
+		align-items    : center
+		background     : $tecser_darkgreen
+		display        : flex
+		height         : 50px
+		justify-content: center
+		margin         : 0 auto 5px
+		overflow       : hidden
+		width          : 50px
+		img 
+			+transition( all 500ms ease )
+			+scale( 0.9 )
+		//Hover
+		&:hover 
+			img 
+				+scale( 1 )
+
+
 /*-------------------------------------------------------------------------*/
 /*-------------------------- HEADER ------------------------------------*/
 /*-------------------------------------------------------------------------*/
 .mainHeader
-	background   : $tecser_blue
-	border-bottom: 7px solid $tecser_sky
+	background   : $tecser_guinda
+	//border-bottom: 7px solid $centrolima_yellow
 	left         : 0 
 	position     : fixed
 	right        : 0
@@ -185,7 +216,7 @@ body,html
 
 				//active u hover
 				&.active,&:hover
-					color: $tecser_yellow
+					color: $tecser_darkyellow
 
 /*-------------------------------------------------------------------------*/
 /*-----------------   SECCION CONTENEDORA GLOBAL --------------------------*/
@@ -323,6 +354,24 @@ body,html
 		&.active
 			background: $tecser_skyblue
 
+.nivo-directionNav
+	.nivo-prevNav,.nivo-nextNav
+		background-color   : rgba(0,0,0,0.6)
+		background-position: 45%
+		background-repeat  : no-repeat
+		background-size    : 12px
+		border-radius      : 50%
+		color              : transparent
+		height             : 40px
+		width              : 40px
+	.nivo-prevNav
+		background-image: url("../images/arrows/flechas_1.png")	
+		left            : 10px
+	.nivo-nextNav
+		background-image: url("../images/arrows/flechas_2.png")
+		right           : 10px
+			
+
 /*-------------------------------------------------------------------------*/
 /*-------------------------- ACCESOS DIRECTOS  ---------------------------*/
 /*-------------------------------------------------------------------------*/
@@ -413,7 +462,7 @@ body,html
 /*-------------------------------------------------------------------------*/
 
 .sectionPage__utilitario__content
-	background: $tecser_skyblue
+	background: $tecser_guinda
 	padding   : 24px 39px 
 	//links
 	a 
@@ -432,7 +481,7 @@ body,html
 /*-------------------------------------------------------------------------*/
 
 .mainFooter
-	background: $tecser_blue
+	background: $tecser_guinda
 	color     : white 
 	margin    : 6px auto 0
 	padding   : 29px 0 50px
@@ -462,7 +511,7 @@ body,html
 						bottom  : 0 
 						content : " "
 						left    : 0
-						outline : 1px solid $tecser_blue
+						outline : 1px solid $tecser_guinda
 						position: absolute
 						right   : 0
 						top     : 0 
@@ -493,7 +542,7 @@ body,html
 	li 
 		margin: 0 auto 5px
 		span
-			color: $tecser_green
+			color: $tecser_yellow
 		i 
 			font-size : 20px
 			margin    : 0 13px 0 0
@@ -507,7 +556,7 @@ body,html
 
 //articulos en comun
 .mainFooter__article
-	border-right: 1px solid $tecser_sky
+	border-right: 1px solid $tecser_crema
 	figure
 		margin: 0 auto 12px
 
@@ -521,6 +570,54 @@ body,html
 //estilo en especial
 .mainFooter__sec-contact
 	padding: 0 3%
+
+/*-------------------------------------------------------------------------*/
+/*--------------------   MODAL DE BIENVENIDA  -----------------------------*/
+/*-------------------------------------------------------------------------*/
+
+//Modal Welcome 
+#lean_overlay
+	background: #000
+	display   : none	
+	height    : 100%
+	left      : 0px
+	position  : fixed
+	top       : 0px
+	width     : 100%
+	z-index   : 9999
+
+.welcome-modal 
+	background   : #fff
+	border-radius: 10px
+	bottom       : 25%
+	left         : 0 !important
+	margin       : 0 auto !important
+	padding      : 20px 
+	position     : relative
+	right        : 0
+	top          : initial !important
+	width        : 80%
+	//Título
+	h2
+		color : $tecser_guinda
+		margin: 0 auto 
+	//Botón cerrar
+	a.modal_close
+		align-items    : center
+		background     : white
+		border         : 3px solid $tecser_guinda
+		border-radius  : 50%
+		color          : $tecser_guinda
+		display        : flex
+		height         : 30px
+		justify-content: center
+		line-height    : 1em
+		position       : absolute
+		right          : -12px
+		top            : -8px
+		width          : 30px
+
+
 
 
 /*********************************************************************************/

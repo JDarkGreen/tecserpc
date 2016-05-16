@@ -95,7 +95,9 @@
 	<!-- Fnacybox -->	
 	<script src="<?= base_url('assets/js/jquery.fancybox.pack.js') ?>"></script>	
 	<!-- slidebar -->
-	<script src="<?= base_url('assets/js/slidebars.min.js') ?>"></script>	
+	<script src="<?= base_url('assets/js/slidebars.min.js') ?>"></script>		
+	<!-- leanjs -->
+	<script src="<?= base_url('assets/js/jquery.leanModal.min.js') ?>"></script>	
 	<!-- Custom Script -->
 	<script src="<?= base_url('assets/js/script.js') ?>"></script>
 

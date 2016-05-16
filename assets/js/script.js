@@ -4,6 +4,14 @@ var j = jQuery.noConflict();
 
 	j(document).on('ready',function(){
 
+		/*--------------- MODAL DE BIENVENIDA ------------------------*/
+		if( j("#open-welcome-modal").length  && j("#welcome-modal").length ){
+
+			j("#open-welcome-modal")
+				.leanModal({closeButton: ".modal_close"})
+				.trigger("click");
+		}
+
 		/* ---------  SLIDEBAR RESPONSIVE ---------*/
 		var mySlidebars = new j.slidebars({
 			disableOver       : 480, // integer or false
@@ -132,8 +140,8 @@ var j = jQuery.noConflict();
 		
 		/* ---------------- CARGAR LIBRERIA NIVO SLIDER --------------*/
 		j("#slider-home-1").nivoSlider({
-			directionNav    : false,
-			controlNav      : true,
+			directionNav    : true,
+			controlNav      : false,
 		});
 	});
 

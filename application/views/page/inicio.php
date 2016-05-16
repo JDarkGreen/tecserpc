@@ -1,7 +1,7 @@
 
 <!-- Seccion Contenedora -->
 <section class="sectionWrapper">
-	
+
 	<!-- Seccion de Logeo y buscador -->
 	<section class="sectionPage__section-one">
 		<div class="container">
@@ -157,7 +157,7 @@
 			<section class="sectionPage__programas__content">
 
 
-				<h2 class="sectionCommon__title text-uppercase"> Disfruta de la mejor programación en vivo solo en "centrolima"</h2>
+				<h2 class="sectionCommon__title text-uppercase"> Disfruta de la mejor programación en vivo ( solo en "centrolima" )</h2>
 				
 				<!-- Seccion contenedora relativa -->
 				<div class="relative">
@@ -353,7 +353,7 @@
 	<div class="container">
 		<section id="seccion-utilitarios" class="sectionPage__utilitario">
 			<!-- Titulo -->
-			<h2 class="sectionCommon__title text-uppercase"> descarga utilitario </h2>	
+			<h2 class="sectionCommon__title text-uppercase"> descarga los utilitarios </h2>	
 			
 			<!-- Contenedor -->
 			<section class="sectionPage__utilitario__content">
