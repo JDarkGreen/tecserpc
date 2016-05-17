@@ -133,7 +133,9 @@
 
 <section id="welcome-modal" class="welcome-modal text-center">
 	<a class="modal_close" href="#">x</a>
-	<h2>La Solución del Corel X7 Ya esta aquí 993-608-012</h2>
+	<figure>
+		<img src="<?= IMAGES ?>/modal/solucion-definitivo-corelx7.jpg" alt="solucion-definitivo-corelx7" class="img-responsive center-block" />
+	</figure>
 </section> <!-- /.welcome-modal -->
 
 <!-- Contenedor para mobile -->

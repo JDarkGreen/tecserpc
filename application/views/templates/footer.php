@@ -77,7 +77,12 @@
 
 			</article><!-- /.mainFooter__sec-contact -->
 
-		</div><!-- /.row -->
+		</div><!-- /.mainFooter__content -->
+		
+		<!-- Desarrolado por  -->
+		<div class="mainFooter__develop text-center">
+			Diseñado Web <a href="http://ingenioart.com/" target="_blank">Ingenioart.com</a>
+		</div>
 	</div><!-- /.container -->		
 </footer> <!-- /.mainFooter -->
 

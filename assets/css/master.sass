@@ -43,8 +43,10 @@ $tecser_yellow       : #FFFB00
 $tecser_darkyellow   : #FFB800
 $centrolima_yellow   : #E8FD00
 
-$tecser_guinda       : #76122c
-$tecser_guindaclaro  : #A52042
+$tecser_guinda      : #76122c
+$tecser_guindaclaro : #A52042
+$tecser_guindaoscuro: #C6254D
+
 $tecser_crema        : #fce680
 
 
@@ -485,13 +487,14 @@ body,html
 	background: $tecser_guinda
 	color     : white 
 	margin    : 6px auto 0
-	padding   : 29px 0 50px
+	padding   : 29px 0
 	position  : relative
 
-	//contenido
+//contenido
 .mainFooter__content
 	display  : flex
 	flex-wrap: wrap 
+	margin   : 0 auto 30px 
 	//lista en general
 	ul 
 		margin: 0
@@ -523,6 +526,14 @@ body,html
 							outline       : 1px solid white
 							outline-offset: 15px
 							+opacity( 0 )
+
+//Desarrollado por
+.mainFooter__develop	
+	color: $tecser_guindaoscuro
+	a 
+		color: $tecser_guindaoscuro
+
+
 
 //titulos en el footer
 .mainFooter__title
@@ -590,14 +601,14 @@ body,html
 .welcome-modal 
 	background   : #fff
 	border-radius: 10px
-	bottom       : 25%
+	bottom       : 20%
 	left         : 0 !important
 	margin       : 0 auto !important
 	padding      : 20px 
 	position     : relative
 	right        : 0
 	top          : initial !important
-	width        : 80%
+	width        : 35%
 	//Título
 	h2
 		color : $tecser_guinda
@@ -614,8 +625,8 @@ body,html
 		justify-content: center
 		line-height    : 1em
 		position       : absolute
-		right          : -12px
-		top            : -8px
+		right          : -10px
+		top            : -13px
 		width          : 30px
 
 
