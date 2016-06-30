@@ -76,6 +76,7 @@
 </header> <!-- /.mainHeader -->
 
 <!-- Modal que contiene el frame -->
+<?php /*
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
@@ -93,6 +94,8 @@
 		</div> <!-- /modal content -->
 	</div> <!-- /modal dialog -->
 </div> <!-- modal fade -->
+
+*/ ?>
 
 <!-- ASIDE BAR DE NAVEGACION SOLO EN VERSION MOBILE -->
 <div class="sb-slidebar sb-left">
@@ -129,6 +132,7 @@
 </aside> <!-- /.sectionPage__common__sidebar-links -->
 
 <!-- Elemento Modal de Inicio -->
+<?php /*
 <a id="open-welcome-modal" href="#welcome-modal" class="hidden-xs"></a>
 
 <section id="welcome-modal" class="welcome-modal text-center">
@@ -137,6 +141,7 @@
 		<img src="<?= IMAGES ?>/modal/solucion-definitivo-corelx7.jpg" alt="solucion-definitivo-corelx7" class="img-responsive center-block" />
 	</figure>
 </section> <!-- /.welcome-modal -->
+*/ ?>
 
 <!-- Contenedor para mobile -->
 <div id="sb-site">
