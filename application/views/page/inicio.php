@@ -40,7 +40,21 @@
 					</section> <!-- /.sectionPage__search -->
 				</div><!-- /.col-xs-9 -->
 
+
+				<!-- Banner - Sección de Pagos -->
+				<div class="col-xs-12 col-md-3">
+					
+					<!-- Separador solo en mobile -->
+					<p class="visible-xs-block"></p>
+					
+					<!-- Imagen -->
+					<figure>
+						<img src="<?= IMAGES ?>/banners/baner_tecser_pc.png" alt="tecser-banco-bcp-cuentas-centrolima" class="img-responsive" />
+					</figure>
+				</div> <!-- /.col-xs-12 col-md-3 -->
+
 				<!-- Seccion Logeo -->
+				<?php /*
 				<div class="col-md-3 hidden-xs">
 					<section class="sectionPage__login">
 						<form method="POST" action="#">
@@ -62,7 +76,8 @@
 							</div><!-- /.content -->
 						</form><!-- /.form -->
 					</section><!-- /.sectionPage__login -->
-				</div><!-- /.col-xs-3 -->
+				</div><!-- /.col-xs-3 --> */ ?>
+
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</section><!-- /.sectionPage -->
