@@ -87,6 +87,7 @@
 		
 		<div class="container">
 			<div class="row">
+
 				<!-- Banner1 -->
 				<div class="col-xs-12 col-md-4">
 					<section id='slider-home-1' class="nivoSlider sectionPage__banner">
@@ -99,23 +100,52 @@
 						<a href="http://ingenioart.com/" target="_blank">
 							<img src="<?= IMAGES ?>/banners/diseno-paginas-web-centrolima-peru.jpg" alt="diseno-paginas-web-centrolima-peru" class="img-responsive" />
 						</a>
+						<a href="http://ingenioart.com/" target="_blank">
+							<img src="<?= IMAGES ?>/banners/web-paginas-empresas.jpg" alt="web-paginas-empresas" class="img-responsive" />
+						</a>
 					</section> <!-- /.sectionPage__banner1 -->
 				</div><!-- /.col-xs-4 -->			
 
-				<!-- Banner2 -->
+				<!-- SLIDER IMAGEN  -->
 				<div class="col-xs-12 col-md-8">
 					<section id='slider-home-2' class="carousel slide sectionPage__banner" data-ride="carousel">
 
 						<div class="carousel-inner" role="listbox">
+						
 	    					<div class="item active">
-								<img src="<?= IMAGES ?>/banners/banner2_1.jpg" alt="" class="img-responsive" />
+								<img src="<?= IMAGES ?>/slider-home/inicio_bn_derecha_1.jpg" alt="" class="img-responsive" />
+							</div> <!-- /.item -->    	
+
+	    					<div class="item">
+								<img src="<?= IMAGES ?>/slider-home/inicio_bn_derecha_2.jpg" alt="" class="img-responsive" />
+							</div> <!-- /.item -->   
+
+	    					<div class="item">
+								<img src="<?= IMAGES ?>/slider-home/inicio_bn_derecha_3.jpg" alt="" class="img-responsive" />
+							</div> <!-- /.item -->    
+
+	    					<div class="item">
+								<img src="<?= IMAGES ?>/slider-home/inicio_bn_derecha_4.jpg" alt="" class="img-responsive" />
+							</div> <!-- /.item -->   
+
+	    					<div class="item">
+								<img src="<?= IMAGES ?>/slider-home/inicio_bn_derecha_5.jpg" alt="" class="img-responsive" />
+							</div> <!-- /.item -->   
+
+	    					<div class="item">
+								<img src="<?= IMAGES ?>/slider-home/inicio_bn_derecha_6.jpg" alt="" class="img-responsive" />
+							</div> <!-- /.item -->  
+
+							<!-- Sillon masajes --> 
+	    					<div class="item">
+								<img src="<?= IMAGES ?>/slider-home/sillon-masajes-lima-peru.jpg" alt="sillon-masajes-lima-peru" class="img-responsive" />
+							</div> <!-- /.item -->   
+
+							<!-- Protector de celular --> 
+	    					<div class="item">
+								<img src="<?= IMAGES ?>/slider-home/protector-celular-de-vidrio.jpg" alt="protector-celular-de-vidrio" class="img-responsive" />
 							</div> <!-- /.item -->    					
-							<div class="item">
-								<img src="<?= IMAGES ?>/banners/banner2_2.jpg" alt="" class="img-responsive" />
-							</div> <!-- /.item -->    					
-							<div class="item">
-								<img src="<?= IMAGES ?>/banners/banner2_3.jpg" alt="" class="img-responsive" />
-							</div> <!-- /.item -->
+
 						</div> <!-- /.carousel-inner -->
 
 						<!-- Indicators -->
@@ -123,6 +153,11 @@
 							<li data-target="#slider-home-2" data-slide-to="0" class="active"></li>
 						    <li data-target="#slider-home-2" data-slide-to="1"></li>
 						    <li data-target="#slider-home-2" data-slide-to="2"></li>
+						    <li data-target="#slider-home-2" data-slide-to="3"></li>
+						    <li data-target="#slider-home-2" data-slide-to="4"></li>
+						    <li data-target="#slider-home-2" data-slide-to="5"></li>
+						    <li data-target="#slider-home-2" data-slide-to="6"></li>
+						    <li data-target="#slider-home-2" data-slide-to="7"></li>
 						</ol> <!-- /.carousel-indicators -->
 
 					</section> <!-- /.sectionPage__banner1 -->
