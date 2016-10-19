@@ -91,15 +91,19 @@
 				<!-- Banner1 -->
 				<div class="col-xs-12 col-md-4">
 					<section id='slider-home-1' class="nivoSlider sectionPage__banner">
+						
 						<!--a href="javascript:void(0)">
 							<img src="<?= IMAGES ?>/banners/banner1_4.jpg" alt="" class="img-responsive" />
 						</a-->
+						
 						<a href="https://www.facebook.com/koalapublicidad.pe?ref=tn_tnmn" target="_blank">
 							<img src="<?= IMAGES ?>/banners/banner1_5.jpg" alt="" class="img-responsive" />
 						</a>
-						<a href="http://ingenioart.com/" target="_blank">
+
+						<!--a href="http://ingenioart.com/" target="_blank">
 							<img src="<?= IMAGES ?>/banners/diseno-paginas-web-centrolima-peru.jpg" alt="diseno-paginas-web-centrolima-peru" class="img-responsive" />
-						</a>
+						</a-->
+
 						<a href="http://ingenioart.com/" target="_blank">
 							<img src="<?= IMAGES ?>/banners/web-paginas-empresas.jpg" alt="web-paginas-empresas" class="img-responsive" />
 						</a>
